@@ -1,4 +1,32 @@
-function menu() {
+function menu(d1,d2) {
+	var header = $('#header')
+		,d1List = header.find('#gnb > ul > li > a')
+		,d2Wrap = header.find('.dep2')
+		,d1Current = d1 - 1
+		,d2Current = d2 - 1
+		,gnbStatus;
+
+	d1List.parent().eq(d1Current).addClass('current');
+	d1List.parent().eq(d1Current).find('li').eq(d2Current).addClass('current');
+	d1List.on('mouseenter', function(){
+		var _this = $(this);
+
+		d1List.parent().removeClass('on');
+		_this.parent().addClass('on');
+
+		if (gnbStatus != 1) {
+			_this.next().stop().slideDown(200);
+			gnbStatus = 1;
+		} else {
+			d2Wrap.hide();
+			_this.next().show();
+		}
+	});
+	header.on('mouseleave', function(){
+		d2Wrap.slideUp(200);
+		d1List.parent().removeClass('on');
+		gnbStatus = 0;
+	});
 
 }
 function tabMenu(list,idx) {
@@ -23,15 +51,6 @@ function tabMenu(list,idx) {
 		}
 		return false;
 	});
-}
-function layerOpen(layer,_this) {
-	layer.fadeIn(200);
-}
-function layerClose(layer) {
-	layer.fadeOut(200);
-}
-function pageTop() {
-	$('html, body').animate({scrollTop : 0},200);
 }
 function setCookie(name, value, expiredays) {
 	var todayDate = new Date();
