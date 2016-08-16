@@ -83,4 +83,4 @@
 .tabListType2 li {float:left;padding:0 15px;border-left:1px solid #c0c0c0;}
 .tabListType2 li:first-child {padding-left:0;border:0;}
 .tabListType2 a {color:#303030;font-size:16px;}
-.tabListType2 .current a {padding-left:22px;background:url(../images/icon_tabtype2_on.png) no-repeat 0 50%;font-weight:bold;}
+.tabListType2 .current a {padding-left:22px;background:url(../images/icon_tabtype2_on.png) no-repeat 0 4px;font-weight:bold;}

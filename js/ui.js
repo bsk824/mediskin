@@ -1,3 +1,6 @@
+function menu() {
+
+}
 function tabMenu(list,idx) {
 	var tabBtn = list.find('a')
 		,tabClass = 'tabItem'+tabBtn.length+''
