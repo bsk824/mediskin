@@ -1,7 +1,22 @@
 @charset "UTF-8";
 
-.memTitle {margin:40px 0 0;line-height:1;color:#373535;font-size:36px;text-align:center;}
-.subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
+.csTab {margin:0 0 60px;border:1px solid #dadada;}
+.csTab ul {zoom:1;}
+.csTab ul:after {content:"";display:block;clear:both;}
+.csTab li {float:left;width:20%;}
+.csTab a {display:block;padding:15px 0 18px;color:#555;font-size:14px;text-align:center;border-left:1px solid #dadada;}
+.csTab li:first-child a {border:0;}
+.csTab .current a {background:#f9f9f9;color:#fb5300;}
+.csTab a:before {content:"";display:block;width:50px;height:50px;margin:0 auto 5px;background:url(../images/contents/icon_cstab.png) no-repeat;}
+.csTab .current .tab1:before {background-position:0 -50px;}
+.csTab .tab2:before {background-position:-50px 0;}
+.csTab .current .tab2:before {background-position:-50px -50px;}
+.csTab .tab3:before {background-position:-100px 0;}
+.csTab .current .tab3:before {background-position:-100px -50px;}
+.csTab .tab4:before {background-position:-150px 0;}
+.csTab .current .tab4:before {background-position:-150px -50px;}
+.csTab .tab5:before {background-position:-200px 0;}
+.csTab .current .tab5:before {background-position:-200px -50px;}
 
 .loginWrap {width:680px;margin:50px auto 0;}
 .loginWrap:after {content:"";display:block;clear:both;}

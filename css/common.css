@@ -39,7 +39,7 @@
 #container {padding:40px 0 135px;}
 .main #container {padding:0;}
 #container .pageHead {position:relative;width:1050px;margin:0 auto;}
-#container .pageTitle {color:#373535;font-size:36px;line-height:1;}
+#container .pageTitle {padding:0 0 20px;color:#373535;font-size:36px;line-height:1;}
 #container .contents {width:1050px;margin:0 auto;}
 #container .orderProgress {position:absolute;top:0;right:0;}
 #container .orderProgress li {float:left;margin:0 15px 0 0;padding:0 0 0 30px;background:url(../images/bg_order_arr.gif) no-repeat 0 50%;color:#909090;font-size:18px;}
@@ -104,7 +104,25 @@
 .prodListType3 .rank1 .thumb {width:250px;height:450px;border:0;}
 /* //제품 리스트 */
 
+/* 타이틀 */
+.memTitle {margin:40px 0 0;line-height:1;color:#373535;font-size:36px;text-align:center;}
+
+.subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
+.subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;}
+/* //타이틀 */
+
 /* 탭 메뉴 */
+.tabList {margin:0 0 35px;}
+.tabList ul {zoom:1;margin:0 1px;}
+.tabList ul:after {content:"";display:block;clear:both;}
+.tabList li {float:left;}
+.tabList li a {display:block;height:43px;line-height:43px;margin:0 -1px;background:#fbfbfb;border:1px solid #ddd;color:#323231;font-size:15px;text-align:center;}
+.tabList li a:after {content:"";display:none;position:absolute;top:50%;right:15px;width:12px;height:6px;margin:-3px 0 0;background:url(../images/icon_tab_on.gif) no-repeat;}
+.tabList .current a {position:relative;height:41px;line-height:40px;background:#fff;border-top:3px solid #8e9840;border-bottom:1px solid #fff;font-weight:500;}
+.tabList .current a:after {display:block}
+
+.tabItem4 li {width:25%;}
+
 .tabListType2 ul {zoom:1;}
 .tabListType2 ul:after {content:"";display:block;clear:both;}
 .tabListType2 li {float:left;padding:0 15px;border-left:1px solid #c0c0c0;}
@@ -113,11 +131,76 @@
 .tabListType2 .current a {padding-left:22px;background:url(../images/icon_tabtype2_on.png) no-repeat 0 4px;font-weight:bold;}
 /* //탭 메뉴 */
 
+/* 게시판 */
+.bbsSearch {margin:-45px 0 0;float:right;}
+.bbsSearch select {width:92px;}
+.bbsSearch .inputTxt {width:158px;}
+.bbsSearch .btnSearch {height:36px;padding:0 12px 0 40px;background:#707070 url(../images/bg_search.gif) no-repeat 16px 50%;border-radius:2px;;color:#fff;}
+
+.bbsList {border-top:1px solid #555;}
+.bbsList thead th {height:48px;background:#fcfcfc;border-bottom:1px solid #ddd;color:#333358;font-size:14px;}
+.bbsList thead th:before {content:"";float:left;width:1px;height:14px;margin:2px 0 0;background:#ccc;}
+.bbsList thead th:first-child:before {display:none;}
+.bbsList td {height:45px;border-bottom:1px solid #eee;text-align:center;}
+.bbsList .subject {padding:0 0 0 50px;text-align:left;}
+.bbsList .subject a {display:inline-block;max-width:90%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bbsList .subject a.on {font-weight:500;}
+.bbsList .answer {display:none;}
+.bbsList .answer td {height:auto;padding:35px 35px 35px 135px;background:#f5f5f5 url(../images/bg_faq_a.gif) no-repeat 100px 30px;text-align:left;}
+
+.bbsView {border-top:1px solid #555;}
+.bbsView .viewHead {position:relative;background:#fcfcfc;border-bottom:1px solid #ddd;}
+.bbsView .viewHead th {text-align:right;font-weight:normal;}
+.bbsView .viewHead th span {display:inline-block;padding:0 15px 0 0;border-right:1px solid #555;color:#555;line-height:1;}
+.bbsView .viewHead td {padding:15px 20px;}
+.bbsView .viewBody {border-bottom:1px solid #eee;padding:25px 30px 30px;}
+.bbsView .replyWrap {margin:30px -30px -30px;padding:25px 30px 25px;background:#f6f6f6;border-top:1px solid #555;color:#4b4b4b;}
+.bbsView .replyWrap .replyHead {margin:0 0 20px;font-size:13px;color:#797979;}
+.bbsView .replyWrap .replyHead .name {margin:0 20px 0 0;color:#2b2b2b;}
+.bbsView .btnWrap {margin:20px 0 0;}
+.bbsView .viewNavi {margin:50px 0 0;border-bottom:1px solid #eee;}
+.bbsView .viewNavi p {width:100%;overflow:hidden;padding:15px 0;border-top:1px solid #eee;}
+.bbsView .viewNavi .navi {float:left;width:100px;margin-right:30px;text-align:center;}
+.bbsView .viewNavi .txt {float:left;max-width:740px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bbsView .viewNavi .date {float:right;width:150px;text-align:center;}
+
+table .status span {display:inline-block;width:58px;height:22px;line-height:22px;border:1px solid #dadada;color:#646464;font-size:12px;text-align:center;}
+table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
+
+.bbsWrite {border-top:1px solid #555;}
+.bbsWrite th,
+.bbsWrite td {border-bottom:1px solid #ddd;font-weight:normal;} 
+.bbsWrite th {padding:15px 0;color:#555;font-size:14px;vertical-align:top;}
+.bbsWrite td {height:26px;padding:10px 0;}
+.bbsWrite .inputTxt {padding:4px 5px;}
+.bbsWrite select {height:30px;}
+
+.pagination {position:relative;margin:35px 0 0;text-align:center;}
+.pagination .pageNavi,
+.pagination .pageNum * {display:inline-block;width:22px;height:22px;line-height:22px;border:1px solid #ededed;vertical-align:middle;font-size:13px;}
+.pagination .pageNum strong {background:#4e4e4e;border:1px solid #4e4e4e;color:#fff;}
+.pagination .pageNavi {overflow:hidden;text-indent:-9999px;}
+.pagination .pageStart {background:url(../images/btn_page_start.gif) no-repeat 50% 50%;}
+.pagination .pagePrev {background:url(../images/btn_page_prev.gif) no-repeat 50% 50%;}
+.pagination .pageNext {background:url(../images/btn_page_next.gif) no-repeat 50% 50%;}
+.pagination .pageEnd {background:url(../images/btn_page_end.gif) no-repeat 50% 50%;}
+.pagination .btnRight {position:absolute;top:0;right:0;}
+
 /* 버튼 */
+.btnWrap {position:relative;min-height:20px;margin:50px 0 0;text-align:center;word-spacing:14px;}
+.btnBbs {margin:20px 0 0;}
+.btnWrap * {word-spacing:0;}
+.btnRight {text-align:right;}
+.btnLeft {text-align:left;}
+.btnWrap .btnRight {position:absolute;top:0;right:0;}
+.btnWrap .btnLeft {position:absolute;top:0;left:0;}
+
 .btnS {display:inline-block;height:18px;line-height:18px;padding:0 5px;font-size:11px;vertical-align:middle;text-align:center;}
 button.btnS {height:20px;line-height:1.2;}
 .btnM {display:inline-block;height:38px;line-height:38px;padding:0 28px;font-size:12px;vertical-align:middle;text-align:center;}
 button.btnM {height:40px;line-height:1.2;}
+.btnM2 {display:inline-block;height:31px;line-height:31px;padding:0 20px;font-size:14px;vertical-align:middle;text-align:center;}
+button.btnM2 {height:33px;line-height:1.2;}
 .btnB {display:inline-block;height:48px;line-height:48px;padding:0 28px;font-size:22px;vertical-align:middle;text-align:center;}
 button.btnB {height:50px;line-height:1.2;}
 
@@ -126,8 +209,14 @@ button.btnB {height:50px;line-height:1.2;}
 .btnType3 {background:#b7b7b7;border:1px solid #989898;border-radius:2px;color:#fff;}
 .btnType4 {background:#545454;border:1px solid #545454;color:#fff;font-size:14px;}
 .btnType5 {background:#9d9d9d;border:1px solid #9d9d9d;color:#fff;font-size:14px;}
+.btnType6 {background:#fff;border:1px solid #ededed;color:#8d8d8d;}
+.btnType7 {background:#fff;border:1px solid #969daf;color:#8e8e8e;}
 
 .btnFacebook {background:#3a5a9a url(../images/btn_facebook.gif) no-repeat 16px 50%;border:1px solid #3a5a9a;color:#fff;font-size:16px;}
 .btnNaver {background:#1ec700 url(../images/btn_naver.gif) no-repeat 14px 50%;border:1px solid #1ec700;color:#fff;font-size:16px;}
-
 /* //버튼 */
+
+/* 텍스트 컬러 */
+.txtColor {color:#ed7500 !important;}
+
+/* //텍스트 컬러 */
