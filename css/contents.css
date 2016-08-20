@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.memTitle {margin:40px 0 0;line-height:1;color:#373535;font-size:36px;text-align:center;}
+.subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
+
+.loginWrap {width:680px;margin:50px auto 0;}
+.loginWrap:after {content:"";display:block;clear:both;}
+.loginWrap > div {float:right;width:300px;}
+.loginWrap > div:first-child {float:left;}
+
+.loginWrap .inputTxt {width:248px;height:48px;padding:0 25px;background:#fefefe;border:1px solid #dbdbdb;font-size:14px;}
+.loginWrap fieldset p {margin:10px 0 0;}
+.loginWrap .btnB {width:298px;padding:0;}
+.loginWrap .chkB {color:#747373;font-size:12px;font-weight:200;}
+
+.loginLink {margin:35px 0 0;padding:12px 0 0;border-top:1px solid #dbdbdb;text-align:center;}
+.loginLink a {color:#333;font-size:13px;font-weight:200;}
+.loginLink .bar {display:inline-block;margin:0 20px;line-height:11px;border-left:1px solid #d6d6d6;text-indent:-9999px;}
+.loginWrap .btn a {margin:10px 0 0;}
+.loginWrap .tip {margin:12px 0 0;color:#7e7c7c;font-size:12px;font-weight:200;text-align:center;}
+
+.joinField {width:430px;margin:25px auto 0;}
+.joinField > p {margin:0 0 9px;}
+.joinField .inputTxt {height:38px;padding:0 20px;background:#fefefe;border:1px solid #dbdbdb;font-size:12px;}
+
+.joinField > p .btnType1 {float:right;}
+.joinField .tip {margin-left:22px;color:#8a8a8a;font-size:11px;font-weight:100;}
+
+.agreeWrap {margin:25px 0 0;padding:20px 25px;background:#f6f6f6;}
+.agreeWrap > p {margin:10px 0;}
+.agreeWrap > p:first-child {margin-top:0;}
+.agreeWrap label {color:#303030;font-size:16px;}
+.agreeWrap .btnS {margin:0 0 0 5px;}
+
+.joinField .btnWrap {margin:15px 0 0;}
+.joinField .btnB {display:block;width:100%;}
+
+.tableType {border-bottom:1px solid #c8c8c8;}
+.tableType th,
+.tableType td {border-top:1px solid #c8c8c8;font-size:12px;}
+.tableType th {background:#ececec;color:#989898;font-weight:normal;}
+.tableType td {height:34px;padding:0 0 0 15px;color:#a6a6a6;}

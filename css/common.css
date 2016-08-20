@@ -112,3 +112,22 @@
 .tabListType2 a {color:#303030;font-size:16px;}
 .tabListType2 .current a {padding-left:22px;background:url(../images/icon_tabtype2_on.png) no-repeat 0 4px;font-weight:bold;}
 /* //탭 메뉴 */
+
+/* 버튼 */
+.btnS {display:inline-block;height:18px;line-height:18px;padding:0 5px;font-size:11px;vertical-align:middle;text-align:center;}
+button.btnS {height:20px;line-height:1.2;}
+.btnM {display:inline-block;height:38px;line-height:38px;padding:0 28px;font-size:12px;vertical-align:middle;text-align:center;}
+button.btnM {height:40px;line-height:1.2;}
+.btnB {display:inline-block;height:48px;line-height:48px;padding:0 28px;font-size:22px;vertical-align:middle;text-align:center;}
+button.btnB {height:50px;line-height:1.2;}
+
+.btnType1 {background:#eaeaea;border:1px solid #dbdbdb;color:#4c4c4c;font-weight:500;}
+.btnType2 {background:#8eb035;border:1px solid #8eb035;color:#fff;font-weight:300;}
+.btnType3 {background:#b7b7b7;border:1px solid #989898;border-radius:2px;color:#fff;}
+.btnType4 {background:#545454;border:1px solid #545454;color:#fff;font-size:14px;}
+.btnType5 {background:#9d9d9d;border:1px solid #9d9d9d;color:#fff;font-size:14px;}
+
+.btnFacebook {background:#3a5a9a url(../images/btn_facebook.gif) no-repeat 16px 50%;border:1px solid #3a5a9a;color:#fff;font-size:16px;}
+.btnNaver {background:#1ec700 url(../images/btn_naver.gif) no-repeat 14px 50%;border:1px solid #1ec700;color:#fff;font-size:16px;}
+
+/* //버튼 */

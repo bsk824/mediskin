@@ -108,61 +108,60 @@
 
 	<!-- container -->
 	<section id="container">
-		<div class="pageHead">
-			<h1 class="pageTitle">장바구니</h1>
-			<!--ol class="orderProgress">
-				<li class="current">01 장바구니</li>
-				<li>02 주문/결제</li>
-				<li>03 결제완료</li>
-			</ol-->
-			<p class="location">
-				<a href="#">Home</a> &gt;
-				<span>products</span>
-			</p>
-		</div>
 		<div class="contents">
-		
-			<h1 class="memTitle">타이틀</h1>
-
-			<hr>
-
-			<label class="chkB"><input type="checkbox" class="inputChk" /> <span>디자인 체크박스</span></label>
-			<br />
-			<label class="radioB"><input type="radio" name="sample" class="inputChk" /> <span>디자인 라디오</span></label>
-			<label class="radioB"><input type="radio" name="sample" class="inputChk" /> <span>디자인 라디오</span></label>
-
-			<hr>
-
-			<p>
-				<button type="button" class="btnM btnType1">버튼타입1</button>
-				<a href="#" class="btnM btnType1">링크</a>
-			</p>
-			<br />
-			<p>
-				<button type="button" class="btnB btnType2">버튼타입2</button>
-				<a href="#" class="btnB btnType2">링크</a>
-			</p>
-			<br />
-			<p> 
-				<button type="button" class="btnS btnType3">버튼타입3</button>
-				<a href="#" class="btnS btnType3">링크</a>
-			</p>
-			<br />
-			<p> 
-				<button type="button" class="btnB btnType4">버튼타입4</button>
-				<a href="#" class="btnB btnType4">링크</a>
-			</p>
-			<br />
-			<p> 
-				<button type="button" class="btnB btnType5">버튼타입5</button>
-				<a href="#" class="btnB btnType5">링크</a>
-			</p>
-			<br />
-			<p>
-				<a href="#" class="btnB btnFacebook" style="width:250px;">페이스북 로그인</a>
-				<a href="#" class="btnB btnNaver" style="width:250px;">네이버 로그인</a>
-			</p>
-			<hr>
+			<h1 class="memTitle">회원가입</h1>
+			<fieldset class="joinField">
+				<legend>회원가입 정보 입력</legend>
+				<p>
+					<input type="text" class="inputTxt" style="width:102px;" placeholder="이메일 아이디" /> @
+					<input type="text" class="inputTxt" style="width:102px;" placeholder="이메일" /> 
+					<button type="button" class="btnM btnType1">중복확인</button>
+				</p>
+				<p><input type="password" class="inputTxt" style="width:388px;" placeholder="비밀번호" /></p>
+				<p><input type="password" class="inputTxt" style="width:388px;" placeholder="비밀번호 확인" /></p>
+				<p class="tip">6~15자의 영문 대소문자, 숫자 사용, 연속된 숫자 문자는 제한 합니다.</p>
+				<div class="agreeWrap">
+					<p>
+						<label><input type="checkbox" class="inputChk" /> 이용약관 동의</label>
+						<button type="button" class="btnS btnType3">내용보기</button>
+					</p>
+					<p>
+						<label><input type="checkbox" class="inputChk" /> 개인정보 수집 및 이용 동의</label>
+						<button type="button" class="btnS btnType3">내용보기</button>
+					</p>
+					<div>
+						<table class="tableType">
+							<caption>수집 항목</caption>
+							<colgroup>
+								<col style="width:115px" />
+								<col />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">구분</th>
+									<td>필수</td>
+								</tr>
+								<tr>
+									<th scope="row">목적</th>
+									<td>이용자 식별, 서비스 이행을 위한 연락</td>
+								</tr>
+								<tr>
+									<th scope="row">항목</th>
+									<td>이름, 아이디, 비밀번호, 이메일</td>
+								</tr>
+								<tr>
+									<th scope="row">보유 및 이용기간</th>
+									<td>회원탈퇴 후 5일까지</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<p><label><input type="checkbox" class="inputChk" /> 이메일 수신동의(선택)</label></p>
+				</div>
+				<div class="btnWrap">
+					<button type="submit" class="btnB btnType2">회원가입</button>
+				</div>
+			</fieldset>
 		</div>
 	</section>
 	<!-- //container -->
@@ -219,6 +218,7 @@
 		</div>
 	</footer>
 	<!-- //footer -->
+
 	<script type="text/javascript">
 	menu(2,1); // 메뉴활성화
 	</script>
