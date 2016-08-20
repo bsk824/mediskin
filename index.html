@@ -14,8 +14,11 @@
 <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
 <![endif]-->
-<body class="main">
+</head>
 
+<body class="main"> <!-- main 클래스 -->
+	
+	<!-- header -->
 	<header id="header">
 		<div class="headTop">
 			<p class="headAlert"><a href="#" class="on">알림 <span>2</span></a></p> <!-- 알림이 있을시 a 링크에 class="on" -->
@@ -101,8 +104,11 @@
 			</ul>
 		</nav>
 	</header>
+	<!-- //header -->
 
+	<!-- container -->
 	<section id="container">
+		<!-- 메인 슬라이드 -->
 		<section class="mainSlide">
 			<ul>
 				<li class="slide1">
@@ -136,6 +142,9 @@
 			nextText: '다음 슬라이드'
 		});
 		</script>
+		<!-- //메인 슬라이드 -->
+
+		<!-- SKINTYPE -->
 		<section class="bgSection">
 			<div class="mainCon">
 				<h2>SKINTYPE <span>제품추천</span></h2>
@@ -149,8 +158,9 @@
 					</ul>
 				</div>
 				<script type="text/javascript">
-				 tabMenu($('.mainTab1'),0);
+				 tabMenu($('.mainTab1'),0); <!-- 스킨타입 탭 메뉴 -->
 				</script>
+
 				<div class="prodList">
 					<ul>
 						<li>
@@ -223,7 +233,10 @@
 				</div>
 			</div>
 		</section>
+		<!-- //SKINTYPE -->
+
 		<div class="mainCon">
+			<!-- 판매랭킹 -->
 			<section>
 				<h2><span>이달의</span> 판매랭킹</h2>
 				<div class="tabListType2 mainTab2">
@@ -233,7 +246,7 @@
 					</ul>
 				</div>
 				<script type="text/javascript">
-				 tabMenu($('.mainTab2'),0);
+				 tabMenu($('.mainTab2'),0); <!-- 판매랭킹 탭 메뉴 -->
 				</script>
 				<div class="prodList">
 					<ul class="prodListType3">
@@ -302,6 +315,9 @@
 					</ul>
 				</div>
 			</section>
+			<!-- //판매랭킹 -->
+
+			<!-- 신제품 -->
 			<section>
 				<h2>NEW PRODUCT <span>신제품</span></h2>
 				<div class="prodList">
@@ -373,6 +389,9 @@
 				</div>
 				<p class="more"><a href="#">신제품 더 보기</a></p>
 			</section>
+			<!-- //신제품 -->
+
+			<!-- 비디오 -->
 			<section>
 				<h2>VIDEO</h2>
 				<div class="videoWrap">
@@ -381,6 +400,9 @@
 				</div>
 				<p class="more"><a href="#">비디오 더 보기</a></p>
 			</section>
+			<!-- //비디오 -->
+
+			<!-- 리뷰 -->
 			<section>
 				<h2>REVIEW</h2>
 				<div class="reviewList">
@@ -446,10 +468,13 @@
 				</div>
 				<p class="more"><a href="#">리뷰 더 보기</a></p>
 			</section>
-		</section>
+			<!-- //리뷰 -->
+		</div>
 
 	</section>
+	<!-- container -->
 
+	<!-- footer -->
 	<footer id="footer">
 		<div class="footWrap">
 			<section class="footNoti">
@@ -500,7 +525,7 @@
 			</div>
 		</div>
 	</footer>
-
+	<!-- //footer -->
 	<script type="text/javascript">
 	menu(); // 메뉴활성화
 	</script>
