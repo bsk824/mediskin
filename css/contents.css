@@ -18,6 +18,11 @@
 .csTab .tab5:before {background-position:-200px 0;}
 .csTab .current .tab5:before {background-position:-200px -50px;}
 
+.orderComTxt {color:#463c3c;border-top:1px solid #d5d5d5;font-size:36px;text-align:center;}
+.orderComTxt span {display:inline-block;padding:70px 0 70px 90px;background:url(../images/contents/icon_order_com.gif) no-repeat 0 50%;}
+.orderComList {margin:10px 0 0 30px;font-size:12px;font-weight:100;}
+
+ 
 .loginWrap {width:680px;margin:50px auto 0;}
 .loginWrap:after {content:"";display:block;clear:both;}
 .loginWrap > div {float:right;width:300px;}

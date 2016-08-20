@@ -185,6 +185,43 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .pagination .pageNext {background:url(../images/btn_page_next.gif) no-repeat 50% 50%;}
 .pagination .pageEnd {background:url(../images/btn_page_end.gif) no-repeat 50% 50%;}
 .pagination .btnRight {position:absolute;top:0;right:0;}
+/* //게시판 */
+
+/* 테이블 */
+.tableList {border-top:2px solid #3f4142;}
+.tableListType2 {border-bottom:1px solid #3f4142;}
+.tableList th {color:#363636;font-size:15px;font-weight:300;}
+.tableList thead th {height:50px;}
+.tableList tbody th {background:#f5f6f4;}
+.tableList td {text-align:center;border-top:1px solid #d8d8d8;border-left:1px solid #d8d8d8;}
+.tableListType2 td {padding:12px 30px;text-align:left;border:0;}
+.tableList tbody tr:first-child td {border-top:1px solid #3e4141;}
+.tableListType2 tbody tr:first-child td {border:0;}
+.tableList tbody td:first-child {border-left:0;}
+.tableList .prodImg {height:130px;border-left:0;}
+.tableList .prodImg img {width:98px;border:1px solid #dbdbdb;}
+.tableList .prodInfo {padding:0 0 0 20px;border-left:0;text-align:left;font-size:13px;}
+.tableList .prodInfo span {display:block;color:#909090;}
+.tableList .prodInfo .name {color:#363636;}
+.tableList .prodInfo .price b {color:#191919;}
+.tableList .prodBtn {border-left:0;padding:0 0 30px;vertical-align:bottom;}
+.tableList .prodBtn .option {display:inline-block;position:relative;margin:0 7px 0 0;padding:0 24px;border:1px solid #c2c7cc;vertical-align:middle;}
+.tableList .prodBtn .option button {position:absolute;top:0;left:0;overflow:hidden;width:24px;height:24px;background:url(../images/btn_prod_minus.gif) no-repeat;text-indent:-9999px;}
+.tableList .prodBtn .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
+.tableList .prodBtn .option span {display:inline-block;min-width:24px;line-height:24px;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;}
+.tableList .prodBtn .del {display:inline-block;overflow:hidden;width:26px;height:26px;background:url(../images/btn_prod_del.gif) no-repeat;text-indent:-9999px;}
+.tableList .totalPrice p {padding:25px 35px;text-align:right;border:6px solid #c8c8c8;color:#232323;}
+.tableList .totalPrice p img {margin:0 25px;}
+.tableList .totalPrice p b {font-size:18px;font-weight:bold;}
+.tableList .totalPrice p strong {color:#f1005b;font-size:24px;font-weight:bold;}
+.tableList .tableListOpt {display:inline-block;width:100%;margin:10px 0 0;}
+.tableList .tableListOpt .btnLeft {float:left;}
+.tableList .tableListOpt .tip {float:right;color:#959595;font-size:12px;}
+
+table .alC {text-align:center;}
+table .alR {text-align:right;}
+table .alL {text-align:left;}
+/* //테이블 */
 
 /* 버튼 */
 .btnWrap {position:relative;min-height:20px;margin:50px 0 0;text-align:center;word-spacing:14px;}
@@ -197,12 +234,16 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 
 .btnS {display:inline-block;height:18px;line-height:18px;padding:0 5px;font-size:11px;vertical-align:middle;text-align:center;}
 button.btnS {height:20px;line-height:1.2;}
+.btnS2 {display:inline-block;height:24px;line-height:24px;padding:0 20px;font-size:11px;vertical-align:middle;text-align:center;}
+button.btnS2 {height:26px;line-height:1.2;}
 .btnM {display:inline-block;height:38px;line-height:38px;padding:0 28px;font-size:12px;vertical-align:middle;text-align:center;}
 button.btnM {height:40px;line-height:1.2;}
 .btnM2 {display:inline-block;height:31px;line-height:31px;padding:0 20px;font-size:14px;vertical-align:middle;text-align:center;}
 button.btnM2 {height:33px;line-height:1.2;}
 .btnB {display:inline-block;height:48px;line-height:48px;padding:0 28px;font-size:22px;vertical-align:middle;text-align:center;}
 button.btnB {height:50px;line-height:1.2;}
+.btnB2 {display:inline-block;width:275px;height:58px;line-height:58px;font-size:26px;vertical-align:middle;text-align:center;}
+button.btnB2 {height:60px;line-height:1.2;}
 
 .btnType1 {background:#eaeaea;border:1px solid #dbdbdb;color:#4c4c4c;font-weight:500;}
 .btnType2 {background:#8eb035;border:1px solid #8eb035;color:#fff;font-weight:300;}
@@ -211,6 +252,10 @@ button.btnB {height:50px;line-height:1.2;}
 .btnType5 {background:#9d9d9d;border:1px solid #9d9d9d;color:#fff;font-size:14px;}
 .btnType6 {background:#fff;border:1px solid #ededed;color:#8d8d8d;}
 .btnType7 {background:#fff;border:1px solid #969daf;color:#8e8e8e;}
+.btnType8 {background:#fff;border:1px solid #b7bc53;color:#606157;}
+.btnType9 {background:#96a100;border:1px solid #96a100;color:#fff;font-weight:500;}
+.btnType10 {background:#fff;border:1px solid #959da6;color:#959595;}
+.btnType11 {background:#fff;border:1px solid #c0c0c0;color:#8d8d8d;}
 
 .btnFacebook {background:#3a5a9a url(../images/btn_facebook.gif) no-repeat 16px 50%;border:1px solid #3a5a9a;color:#fff;font-size:16px;}
 .btnNaver {background:#1ec700 url(../images/btn_naver.gif) no-repeat 14px 50%;border:1px solid #1ec700;color:#fff;font-size:16px;}
@@ -218,5 +263,5 @@ button.btnB {height:50px;line-height:1.2;}
 
 /* 텍스트 컬러 */
 .txtColor {color:#ed7500 !important;}
-
+.txtColor2 {color:#0e6b92 !important;}
 /* //텍스트 컬러 */
