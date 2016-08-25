@@ -140,6 +140,7 @@
 	
 			<p class="txtColor">텍스트 컬러</p>
 			<p class="txtColor2">텍스트 컬러2</p>
+			<p class="txtColor3">텍스트 컬러3</p>
 
 			<hr>
 
@@ -433,6 +434,190 @@
 			<div class="btnWrap btnBbs">
 				<a href="#" class="btnB btnType7">취 소</a>
 				<a href="#" class="btnB btnType2">문의하기</a>
+			</div>
+
+			<br /><br />
+
+			<div class="tableList">
+				<table>
+					<caption>장바구니</caption>
+					<colgroup>
+						<col style="width:60px" />
+						<col style="width:100px" />
+						<col />
+						<col style="width:180px" />
+						<col style="width:220px" />
+						<col style="width:145px" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col"><input type="checkbox" class="inputChk" /></th>
+							<th scope="col" colspan="3">상품정보</th>
+							<th scope="col">상품금액</th>
+							<th scope="col">배송비</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" class="inputChk" /></td>
+							<td class="prodImg">
+								<img src="images/img_sample.gif" alt="" />
+							</td>
+							<td class="prodInfo">
+								<span class="name">[라로슈포제] 똘러리앙 더모 클렌징 밀크</span>
+								<span class="type">중건성타입 </span>
+								<span class="price"><b>29,000</b>원X <b>1</b>개</span>
+							</td>
+							<td class="prodBtn">
+								<span class="option">
+									<button type="button" class="minus">상품빼기</button>
+									<button type="button" class="plus">상품더하기</button>
+									<span>1</span>
+								</span>
+								<button type="button" class="del">상품삭제</button>
+							</td>
+							<td>60,000원</td>
+							<td>25,000원</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="inputChk" /></td>
+							<td class="prodImg">
+								<img src="images/img_sample.gif" alt="" />
+							</td>
+							<td class="prodInfo">
+								<span class="name">[라로슈포제] 똘러리앙 더모 클렌징 밀크</span>
+								<span class="type">중건성타입 </span>
+								<span class="price"><b>29,000</b>원X <b>1</b>개</span>
+							</td>
+							<td class="prodBtn">
+								<span class="option">
+									<button type="button" class="minus">상품빼기</button>
+									<button type="button" class="plus">상품더하기</button>
+									<span>1</span>
+								</span>
+								<button type="button" class="del">상품삭제</button>
+							</td>
+							<td rowspan="2">60,000원</td>
+							<td rowspan="2">무료배송</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" class="inputChk" /></td>
+							<td class="prodImg">
+								<img src="images/img_sample.gif" alt="" />
+							</td>
+							<td class="prodInfo">
+								<span class="name">[라로슈포제] 똘러리앙 더모 클렌징 밀크</span>
+								<span class="type">중건성타입 </span>
+								<span class="price"><b>29,000</b>원X <b>1</b>개</span>
+							</td>
+							<td class="prodBtn">
+								<span class="option">
+									<button type="button" class="minus">상품빼기</button>
+									<button type="button" class="plus">상품더하기</button>
+									<span>1</span>
+								</span>
+								<button type="button" class="del">상품삭제</button>
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="6" class="totalPrice">
+								<p>
+									총 주문금액 <b>120,000</b>원 
+									<img src="images/img_sym1.gif" alt="+" />
+									배송비 <b>2,500</b>원
+									<img src="images/img_sym2.gif" alt="=" />
+									결제예상금액 <strong>120,000</strong>원
+								</p>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<div class="tableListOpt">
+					<p class="btnLeft">
+						<button type="button" class="btnS2 btnType10">선택삭제</button>
+						<button type="button" class="btnS2 btnType10">전체삭제</button>
+					</p>
+					<p class="tip">쿠폰및 포인트 적용은 주문/결제페이지에서 적용해주세요.</p>
+				</div>
+			</div>
+
+			<br /><br />
+
+			<div class="tableList tableListType2">
+				<table>
+					<caption>주문정보</caption>
+					<colgroup>
+						<col style="width:130px" />
+						<col style="width:400px" />
+						<col style="width:130px" />
+						<col />
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row">주문일자</th>
+							<td>2016-08-01 오전 11:45:45</td>
+							<th scope="row">주문번호</th>
+							<td class="txtColor2">20160801_100028055</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<br /><br />
+
+			<div class="tableList tableListType3">
+				<table>
+					<caption></caption>
+					<colgroup>
+						<col style="width:145px" />
+						<col style="width:300px" />
+						<col style="width:150px" />
+						<col />
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row">배송지 선택</th>
+							<td colspan="3">
+								<label class="radioB"><input type="radio" class="inputChk" /> <span>최근 배송지</span></label>
+								<label class="radioB"><input type="radio" class="inputChk" /> <span>새로운 배송지</span></label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">이름</th>
+							<td>
+								<input type="text" class="inputTxt" style="width:235px;" />
+							</td>
+							<th scope="row">연락처</th>
+							<td>
+								<select style="width:86px;">
+									<option>010</option>
+								</select>
+								-
+								<input type="text" class="inputTxt" style="width:84px;" />
+								-
+								<input type="text" class="inputTxt" style="width:84px;" />
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">주소</th>
+							<td colspan="3" class="adrs">
+								<p><input type="text" class="inputTxt" style="width:124px;" /> <button type="button" class="btnS btnType3">우편번호</button></p>
+								<p>
+									<input type="text" class="inputTxt" style="width:400px;" />
+									<input type="text" class="inputTxt" style="width:400px;" />
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">주문시 요청사항</th>
+							<td colspan="3">
+								<textarea rows="10" cols="20" style="width:858px;height:68px;" placeholder="주문시 요구사항을 메모해 주세요."></textarea>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 
 		</div>

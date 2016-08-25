@@ -110,58 +110,15 @@
 	<section id="container">
 		<div class="contents">
 			<h1 class="memTitle">회원가입</h1>
-			<fieldset class="joinField">
-				<legend>회원가입 정보 입력</legend>
-				<p>
-					<input type="text" class="inputTxt" style="width:102px;" placeholder="이메일 아이디" /> @
-					<input type="text" class="inputTxt" style="width:102px;" placeholder="이메일" /> 
-					<button type="button" class="btnM btnType1">중복확인</button>
-				</p>
-				<p><input type="password" class="inputTxt" style="width:388px;" placeholder="비밀번호" /></p>
-				<p><input type="password" class="inputTxt" style="width:388px;" placeholder="비밀번호 확인" /></p>
-				<p class="tip">6~15자의 영문 대소문자, 숫자 사용, 연속된 숫자 문자는 제한 합니다.</p>
-				<div class="agreeWrap">
-					<p>
-						<label><input type="checkbox" class="inputChk" /> 이용약관 동의</label>
-						<button type="button" class="btnS btnType3">내용보기</button>
-					</p>
-					<p>
-						<label><input type="checkbox" class="inputChk" /> 개인정보 수집 및 이용 동의</label>
-						<button type="button" class="btnS btnType3">내용보기</button>
-					</p>
-					<div>
-						<table class="tableType">
-							<caption>수집 항목</caption>
-							<colgroup>
-								<col style="width:115px" />
-								<col />
-							</colgroup>
-							<tbody>
-								<tr>
-									<th scope="row">구분</th>
-									<td>필수</td>
-								</tr>
-								<tr>
-									<th scope="row">목적</th>
-									<td>이용자 식별, 서비스 이행을 위한 연락</td>
-								</tr>
-								<tr>
-									<th scope="row">항목</th>
-									<td>이름, 아이디, 비밀번호, 이메일</td>
-								</tr>
-								<tr>
-									<th scope="row">보유 및 이용기간</th>
-									<td>회원탈퇴 후 5일까지</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<p><label><input type="checkbox" class="inputChk" /> 이메일 수신동의(선택)</label></p>
-				</div>
-				<div class="btnWrap">
-					<button type="submit" class="btnB btnType2">회원가입</button>
-				</div>
-			</fieldset>
+			<div class="joinWrap">
+				<p><a href="#" class="btnB btnFacebook">페이스북 로그인</a></p>
+				<p><a href="#" class="btnB btnNaver">네이버 로그인</a></p>
+				<fieldset class="joinField">
+					<legend>회원가입 정보 입력</legend>
+					<p><input type="text" class="inputTxt" style="width:388px;" placeholder="이메일 아이디" /></p>
+					<button type="submit" class="btnB btnType2">이메일로 회원가입</button>
+				</fieldset>
+			</div>
 		</div>
 	</section>
 	<!-- //container -->

@@ -18,10 +18,23 @@
 .csTab .tab5:before {background-position:-200px 0;}
 .csTab .current .tab5:before {background-position:-200px -50px;}
 
+.buyerInfo {height:49px;margin:45px 0 0;padding:0 30px;background:url(../images/contents/bg_buyer_info.gif) repeat-x;border:1px solid #b5b5b5;}
+.buyerInfo .subTitle2 {float:left;margin:12px 40px 0 0;}
+.buyerInfo p {float:left;margin:14px 80px 0 0;}
+.buyerInfo .bar {display:inline-block;height:12px;margin:0 10px;border-left:1px solid #505050;text-indent:-9999px;line-height:12px;font-size:0;vertical-align:5px;}
+
+.totalTable {border:6px solid #b7b7b7;}
+.totalTable th {height:44px;padding:0 0 0 23px;border-left:1px solid #e5e5e7;font-weight:100;text-align:left;}
+.totalTable td {height:78px;border-top:1px solid #e5e5e7;border-left:1px solid #e5e5e7;}
+.totalTable th, {border-left:0;}
+.totalTable td:first-child {border-left:0;}
+.totalTable td span {display:block;position:relative;padding:0 30px 0 0;text-align:right;color:#232323;}
+.totalTable td span b {font-size:24px;font-weight:bold;}
+.totalTable td span img {position:absolute;top:0;right:-12px;}
+
 .orderComTxt {color:#463c3c;border-top:1px solid #d5d5d5;font-size:36px;text-align:center;}
 .orderComTxt span {display:inline-block;padding:70px 0 70px 90px;background:url(../images/contents/icon_order_com.gif) no-repeat 0 50%;}
 .orderComList {margin:10px 0 0 30px;font-size:12px;font-weight:100;}
-
  
 .loginWrap {width:680px;margin:50px auto 0;}
 .loginWrap:after {content:"";display:block;clear:both;}
@@ -39,18 +52,22 @@
 .loginWrap .btn a {margin:10px 0 0;}
 .loginWrap .tip {margin:12px 0 0;color:#7e7c7c;font-size:12px;font-weight:200;text-align:center;}
 
+.joinWrap,
 .joinField {width:430px;margin:25px auto 0;}
+.joinWrap .btnB {width:100%;margin:10px 0 0;padding:0;}
+.joinWrap .joinField {margin:20px 0 0;padding:20px 0 0;border-top:1px solid #d4d4d4;}
 .joinField > p {margin:0 0 9px;}
 .joinField .inputTxt {height:38px;padding:0 20px;background:#fefefe;border:1px solid #dbdbdb;font-size:12px;}
 
 .joinField > p .btnType1 {float:right;}
 .joinField .tip {margin-left:22px;color:#8a8a8a;font-size:11px;font-weight:100;}
 
-.agreeWrap {margin:25px 0 0;padding:20px 25px;background:#f6f6f6;}
-.agreeWrap > p {margin:10px 0;}
-.agreeWrap > p:first-child {margin-top:0;}
-.agreeWrap label {color:#303030;font-size:16px;}
-.agreeWrap .btnS {margin:0 0 0 5px;}
+.agreeWrap {margin:25px 0 0;padding:20px 25px 20px 40px;background:#f6f6f6;}
+.agreeWrap > p {position:relative;margin:10px 0 0;padding:0 0 0 15px;background:#ececec;color:#4c4b4b;font-size:13px;line-height:34px;}
+.agreeWrap > p:first-child {margin:0;padding:0;background:none;color:#2d2c2c;font-size:15px;line-height:1.7;}
+.agreeWrap > p .inputChk {position:absolute;top:10px;left:-20px;}
+.agreeWrap > p .conOpen {position:absolute;top:10px;right:13px;padding:0 13px 0 0;background:url(../images/btn_agree_open.gif) no-repeat 100% 50%;font-size:12px;}
+.agreeWrap .agreeCon {display:none;height:80px;padding:15px;background:#fff;border:1px solid #e7e7e7;overflow:auto;}
 
 .joinField .btnWrap {margin:15px 0 0;}
 .joinField .btnB {display:block;width:100%;}

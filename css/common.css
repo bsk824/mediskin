@@ -108,8 +108,13 @@
 .memTitle {margin:40px 0 0;line-height:1;color:#373535;font-size:36px;text-align:center;}
 
 .subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
-.subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;}
+.subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;line-height:1.1;}
+.titOpt {float:right;margin-top:-30px;}
 /* //타이틀 */
+
+/* 컨텐츠간 간격 */
+.subSection {margin-top:45px;}
+/* //컨텐츠간 간격 */
 
 /* 탭 메뉴 */
 .tabList {margin:0 0 35px;}
@@ -193,13 +198,18 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList th {color:#363636;font-size:15px;font-weight:300;}
 .tableList thead th {height:50px;}
 .tableList tbody th {background:#f5f6f4;}
-.tableList td {text-align:center;border-top:1px solid #d8d8d8;border-left:1px solid #d8d8d8;}
+.tableListType3 th {padding-left:30px;text-align:left;border-bottom:1px solid #c8c8c8;font-size:14px;}
+.tableList td {text-align:center;border:1px solid #d8d8d8;border-right:0;}
 .tableListType2 td {padding:12px 30px;text-align:left;border:0;}
+.tableListType3 td {padding:12px 20px;text-align:left;border:0;border-bottom:1px solid #c8c8c8;}
 .tableList tbody tr:first-child td {border-top:1px solid #3e4141;}
-.tableListType2 tbody tr:first-child td {border:0;}
+.tableListType2 tbody tr:first-child td,
+.tableListType3 tbody tr:first-child td {border-top:0;}
 .tableList tbody td:first-child {border-left:0;}
 .tableList .prodImg {height:130px;border-left:0;}
 .tableList .prodImg img {width:98px;border:1px solid #dbdbdb;}
+.tableList .prodImg2 {height:75px;border-left:0;}
+.tableList .prodImg2 img {width:52px;border:1px solid #dbdbdb;}
 .tableList .prodInfo {padding:0 0 0 20px;border-left:0;text-align:left;font-size:13px;}
 .tableList .prodInfo span {display:block;color:#909090;}
 .tableList .prodInfo .name {color:#363636;}
@@ -210,6 +220,7 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList .prodBtn .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
 .tableList .prodBtn .option span {display:inline-block;min-width:24px;line-height:24px;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;}
 .tableList .prodBtn .del {display:inline-block;overflow:hidden;width:26px;height:26px;background:url(../images/btn_prod_del.gif) no-repeat;text-indent:-9999px;}
+.tableList .total {color:#181818;font-size:16px;font-weight:400;}
 .tableList .totalPrice p {padding:25px 35px;text-align:right;border:6px solid #c8c8c8;color:#232323;}
 .tableList .totalPrice p img {margin:0 25px;}
 .tableList .totalPrice p b {font-size:18px;font-weight:bold;}
@@ -217,6 +228,16 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList .tableListOpt {display:inline-block;width:100%;margin:10px 0 0;}
 .tableList .tableListOpt .btnLeft {float:left;}
 .tableList .tableListOpt .tip {float:right;color:#959595;font-size:12px;}
+.tableList .adrs p {margin:5px 0 0;}
+.tableList .adrs p:first-child {margin:0;}
+.tableList .tip {margin:0 0 0 10px;font-size:11px;}
+.tableList .point .bar {display:inline-block;height:12px;margin:0 5px;border-left:1px solid #505050;text-indent:-9999px;line-height:12px;font-size:0;vertical-align:5px;}
+.tableList .point .pointChk {margin:0 0 0 10px;vertical-align:middle;}
+.tableList .gift {height:126px;padding:0;}
+.tableList .gift span {position:relative;float:left;width:250px;padding:25px 0 0 50px;color:#353535;font-size:13px;}
+.tableList .gift span strong {display:block;font-size:24px;}
+.tableList .gift span:after {content:"";position:absolute;top:50%;right:-16px;border:16px solid transparent;border-left:16px solid #fff;border-right:0;}
+.tableList .gift img {float:right;}
 
 table .alC {text-align:center;}
 table .alR {text-align:right;}
@@ -264,4 +285,5 @@ button.btnB2 {height:60px;line-height:1.2;}
 /* 텍스트 컬러 */
 .txtColor {color:#ed7500 !important;}
 .txtColor2 {color:#0e6b92 !important;}
+.txtColor3 {color:#f73d04 !important;}
 /* //텍스트 컬러 */

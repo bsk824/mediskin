@@ -1,6 +1,6 @@
 @charset "UTF-8";
-
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
@@ -49,7 +49,7 @@
         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),
         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
  }
-
+*/
 * {margin:0;padding:0;}
 body {color:#555;font:14px/1.4 Noto Sans KR, '돋움', dotum, sans-serif;font-weight:200;}
 a {color:#555;text-decoration:none;}
@@ -82,10 +82,11 @@ textarea:focus {border:1px solid #57b8bb;}
 .chkB input + span:before {content:"";display:inline-block;display:none\9;margin:0 10px 0 0;width:18px;height:18px;background:url(../images/bg_chkB.gif) no-repeat 0 -20px;border:1px solid #7f7f7f;vertical-align:middle;}
 .chkB input:checked + span:before {background-position:0 0;}
 
-.radioS {display:inline-block;margin:0 15px 0 0;cursor:pointer;vertical-align:middle;}
-.radioS input {position:absolute;visibility:hidden;position:static\9;visibility:visible\9;}
-.radioS input + span {display:inline-block;}
-.radioS input + span:before {content:"";display:inline-block;display:none\9;margin:0 10px 0 0;width:20px;height:20px;background:url(../images/bg_radioS.png) no-repeat 0 0;vertical-align:-3px;}
-.radioS input:checked + span:before {background-position:0 -20px;}
+.radioB {display:inline-block;margin:0 15px 0 0;cursor:pointer;vertical-align:middle;}
+.radioB input {position:absolute;visibility:hidden;position:static\9;visibility:visible\9;}
+.radioB input + span {display:inline-block;}
+.radioB input + span:before {content:"";display:inline-block;display:none\9;margin:0 10px 0 0;width:24px;height:24px;background:url(../images/bg_radioB.gif) no-repeat 0 0;vertical-align:-6px;}
+.radioB input:checked + span {font-weight:500;}
+.radioB input:checked + span:before {background-position:0 -24px;}
 
 hr {margin:50px 0;border:0;border-top:1px solid #000;}
