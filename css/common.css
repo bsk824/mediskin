@@ -193,6 +193,12 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 /* //게시판 */
 
 /* 테이블 */
+.tableType {border-bottom:1px solid #c8c8c8;}
+.tableType th,
+.tableType td {border-top:1px solid #c8c8c8;font-size:12px;}
+.tableType th {background:#ececec;color:#989898;font-weight:normal;}
+.tableType td {height:34px;padding:0 0 0 15px;color:#a6a6a6;}
+
 .tableList {border-top:2px solid #3f4142;}
 .tableListType2 {border-bottom:1px solid #3f4142;}
 .tableList th {color:#363636;font-size:15px;font-weight:300;}
@@ -265,6 +271,9 @@ button.btnM2 {height:33px;line-height:1.2;}
 button.btnB {height:50px;line-height:1.2;}
 .btnB2 {display:inline-block;width:275px;height:58px;line-height:58px;font-size:26px;vertical-align:middle;text-align:center;}
 button.btnB2 {height:60px;line-height:1.2;}
+.btnB3 {display:inline-block;height:42px;line-height:42px;padding:0 20px;font-size:20px;vertical-align:middle;text-align:center;}
+button.btnB3 {height:44px;line-height:1.2;}
+.btnB3 img {vertical-align:-4px;}
 
 .btnType1 {background:#eaeaea;border:1px solid #dbdbdb;color:#4c4c4c;font-weight:500;}
 .btnType2 {background:#8eb035;border:1px solid #8eb035;color:#fff;font-weight:300;}
@@ -277,6 +286,9 @@ button.btnB2 {height:60px;line-height:1.2;}
 .btnType9 {background:#96a100;border:1px solid #96a100;color:#fff;font-weight:500;}
 .btnType10 {background:#fff;border:1px solid #959da6;color:#959595;}
 .btnType11 {background:#fff;border:1px solid #c0c0c0;color:#8d8d8d;}
+.btnType12 {background:#fff;border:1px solid #686f75;color:#323232;}
+.btnType13 {background:#fc8c13;border:1px solid #fc8c13;color:#fff;font-weight:500;}
+.btnType14 {background:#00c73c;border:1px solid #00c73c;color:#fff;font-weight:500;}
 
 .btnFacebook {background:#3a5a9a url(../images/btn_facebook.gif) no-repeat 16px 50%;border:1px solid #3a5a9a;color:#fff;font-size:16px;}
 .btnNaver {background:#1ec700 url(../images/btn_naver.gif) no-repeat 14px 50%;border:1px solid #1ec700;color:#fff;font-size:16px;}
