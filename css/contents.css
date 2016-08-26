@@ -36,15 +36,36 @@
 
 .prodListWrap {zoom:1;margin:65px 0 0;}
 .prodListWrap:after {content:"";display:block;clear:both;}
-.prodListWrap > section {position:relative;float:right;width:510px;padding:10px 0 0;}
+.prodListWrap > section {position:relative;float:right;width:486px;padding:10px 0 0;}
 .prodListWrap > section:first-child {float:left;width:524px;border-right:1px solid #e0e0e0;}
 .prodListWrap h2 {margin:0 0 15px;font-size:18px;font-weight:normal;}
 .prodListWrap .listNavi {position:absolute;top:15px;right:0;}
-.prodListWrap > section:first-child .listNavi {right:15px;}
+.prodListWrap > section:first-child .listNavi {right:35px;}
 .prodListWrap .listNavi button {overflow:hidden;width:10px;height:10px;background:#dfe2e7;border-radius:50%;text-indent:-9999px;}
 .prodListWrap .listNavi button.active {background:#6b9913;}
+.prodListWrap .prodList li {margin:0 13px;}
 
+.prodDetailCon {margin:70px 0 0;}
+.prodDetailCon .tit {margin:80px 0 10px 15px;font-size:24px;color:#2a2a2a;}
+.prodDetailCon .tableList th,
+.prodDetailCon .tableList td {font-size:12px;}
 
+.prodReview {margin:15px 0 0;}
+.prodReview li {zoom:1;border-bottom:1px solid #d8d8d8;}
+.prodReview:after {content:"";display:block;clear:both;}
+.prodReview li a {display:block;width:100%;overflow:hidden;padding:10px 0;background:url(../images/contents/icon_review_arr.gif) no-repeat 99% 50%;}
+.prodReview li a > span {display:inline-block;vertical-align:middle;}
+.prodReview li .num {width:80px;text-align:center;}
+.prodReview li .point {overflow:hidden;width:91px;height:15px;background:url(../images/icon_point.gif) no-repeat;text-indent:-9999px;}
+.prodReview li .point1 {background-position:0 0;}
+.prodReview li .point2 {background-position:0 -15px;}
+.prodReview li .point3 {background-position:0 -30px;}
+.prodReview li .point4 {background-position:0 -45px;}
+.prodReview li .point5 {background-position:0 -60px;}
+.prodReview li .tit {width:570px;margin:0 40px 0 0;padding:0 0 0 30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.prodReview li .writer {width:80px;text-align:center;}
+.prodReview li .date {width:120px;text-align:center;}
+.prodReview li .con {display:none;padding:15px 15px 15px 208px;background:#f7f7f7;border-top:1px solid #d8d8d8;color:#838383;font-size:13px;}
 .csTab {margin:0 0 60px;border:1px solid #dadada;}
 .csTab ul {zoom:1;}
 .csTab ul:after {content:"";display:block;clear:both;}
