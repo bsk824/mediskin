@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
+.prodListTop {position:relative;margin:25px 0 15px;}
+.prodListTop .sortTab {display:inline-block;overflow:hidden;height:23px;padding:10px 0 0;vertical-align:top;}
+.prodListTop .sortTab ul {overflow:hidden;margin:0 -1px;}
+.prodListTop .sortTab li {float:left;padding:0 20px;line-height:13px;border-right:1px solid #8c8c8c;border-left:1px solid #f0f0f0;}
+.prodListTop .sortTab a {display:inline-block;color:#707070;font-size:13px;}
+.prodListTop .sortTab .current a {color:#d07411;}
+.prodListTop .btnSmart {position:absolute;top:0;right:0;}
+.prodListTop .btnSmart button {width:161px;height:34px;background:#f8f8f8;border:1px solid #d6d6d6;color:#1f1f1f;font-size:13px;font-weight:bold;}
+.prodListTop .btnSmart button:after {content:"";display:inline-block;width:16px;height:16px;margin:0 0 0 5px;background:url(../images/contents/icon_smart_arr.gif) no-repeat;vertical-align:-3px;}
+.prodListTop .btnSmart button.on {border-bottom:0;}
+.prodListTop .smartSet {padding:17px 22px;background:#f8f8f8;border:1px solid #d6d6d6;}
+.prodListTop .smartSet .tit {padding:5px 0 0;color:#7b7e4d;font-size:14px;}
+.prodListTop .smartSet label {display:inline-block;margin:12px 0 0;color:#53534c;font-size:12px;}
+.prodListTop .smartSet label input {margin:0 3px 0 0;vertical-align:-2px;}
+.prodListTop .smartSetTop {width:100%;overflow:hidden;padding:0 0 20px;border-bottom:1px solid #fff;}
+.prodListTop .smartSet .age {float:left;width:189px;height:120px;padding:0 0 0 10px;border-right:1px solid #dcdcdc;}
+.prodListTop .smartSet .age label {width:74px;}
+.prodListTop .smartSet .price {float:left;width:285px;height:120px;padding:0 0 0 50px;border-left:1px solid #fff;border-right:1px solid #dcdcdc;}
+.prodListTop .smartSet .price label {width:120px;}
+.prodListTop .smartSet .type {float:left;width:414px;height:120px;padding:0 0 0 50px;border-left:1px solid #fff;}
+.prodListTop .smartSet .type label {width:135px;}
+.prodListTop .smartSet .brand {position:relative;padding:13px 65px 0 78px;border-top:1px solid #dcdcdc;}
+.prodListTop .smartSet .brand .tit {position:absolute;top:15px;left:10px;}
+.prodListTop .smartSet .brand label {width:120px;}
+.prodListTop .smartSet .brand .more {position:absolute;top:22px;right:0;width:86px;height:22px;background:#fff;border:1px solid #a7a7a7;font-size:11px;font-weight:normal;}
+.prodListTop .smartSet .brand .more:after {content:"";display:inline-block;width:10px;height:10px;margin:0 0 0 4px;background:url(../images/contents/btn_brand_more.gif) no-repeat;vertical-align:0;}
+.prodListTop .smartSet .brand .brandHide:after {width:10px;height:10px;background:url(../images/contents/btn_brand_hide.gif) no-repeat;}
+
+.searchResult .txt {line-height:40px;background:#fcfcfc;border:1px solid #8dc8ca;color:#3d3d3d;text-align:center;font-size:16px;font-weight:normal;}
+.searchResult .txt strong {font-weight:normal;}
+.searchResult .list {padding:0 40px;background:#f7f7f7;}
+.searchResult .list p {padding:12px 0;border-top:1px solid #d0d0d0;color:#676767;font-size:13px;}
+.searchResult .list p:first-child {border:0;}
+.searchResult .list p span {display:inline-block;margin:0 5px 0 0;}
+.searchResult .list .sym {margin:0 5px;font-family:dotum, '돋움';}
 
 .prodDetailTop {zoom:1;padding:30px 0 0;border-top:1px solid #ddd;}
 .prodDetailTop:after {content:"";display:block;clear:both;}
@@ -66,6 +101,7 @@
 .prodReview li .writer {width:80px;text-align:center;}
 .prodReview li .date {width:120px;text-align:center;}
 .prodReview li .con {display:none;padding:15px 15px 15px 208px;background:#f7f7f7;border-top:1px solid #d8d8d8;color:#838383;font-size:13px;}
+
 .csTab {margin:0 0 60px;border:1px solid #dadada;}
 .csTab ul {zoom:1;}
 .csTab ul:after {content:"";display:block;clear:both;}

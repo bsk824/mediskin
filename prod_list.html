@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>MEDI SKIN</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/contents.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+	<!-- header -->
+	<header id="header">
+		<div class="headTop">
+			<p class="headAlert"><a href="#" class="on">알림 <span>2</span></a></p> <!-- 알림이 있을시 a 링크에 class="on" -->
+			<p class="headLink">
+				<a href="#" class="member">제제양님</a>
+				<a href="#">로그인</a>
+				<a href="#">회원가입</a>
+				<a href="#">마이페이지</a>
+				<a href="#">장바구니</a>
+			</p>
+		</div>
+		<div class="headWrap">
+			<h1><a href="#"><img src="images/img_logo.png" alt="MEDI SKIN" /></a></h1>
+			<fieldset class="headSearch">
+				<legend>통합검색</legend>
+				<span class="">
+					<select>
+						<option>통합검색</option>
+					</select>
+					<input type="text" class="inputTxt" />
+				</span>
+				<button type="submit">검색</button>
+			</fieldset>
+			<p class="headBanner"><a href="#"><img src="images/img_head_banner.gif" alt="내 피부 맞춤서정하고 제품추천받기" /></a></p>
+		</div>
+		<nav id="gnb">
+			<ul>
+				<li><a href="#">제품종류별</a>
+					<div class="dep2">
+						<ul>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 1민감성피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_2.gif" alt="" /> 건성/노화피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 기미/잡티/색소피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_4.gif" alt="" /> 지성/여드름피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_5.gif" alt="" /> 모든피부</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">피부타입별</a>
+					<div class="dep2">
+						<ul>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 2민감성피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_2.gif" alt="" /> 건성/노화피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 기미/잡티/색소피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_4.gif" alt="" /> 지성/여드름피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_5.gif" alt="" /> 모든피부</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">브랜드존</a>
+					<div class="dep2">
+						<ul>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 3민감성피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_2.gif" alt="" /> 건성/노화피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 기미/잡티/색소피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_4.gif" alt="" /> 지성/여드름피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_5.gif" alt="" /> 모든피부</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">REVIEW</a>
+					<div class="dep2">
+						<ul>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 4민감성피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_2.gif" alt="" /> 건성/노화피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 기미/잡티/색소피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_4.gif" alt="" /> 지성/여드름피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_5.gif" alt="" /> 모든피부</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="mediSkin"><a href="#">메디스킨</a>
+					<div class="dep2">
+						<ul>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 5민감성피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_2.gif" alt="" /> 건성/노화피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_1.gif" alt="" /> 기미/잡티/색소피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_4.gif" alt="" /> 지성/여드름피부</a></li>
+							<li><a href="#"><img src="images/img_gnb2_5.gif" alt="" /> 모든피부</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- //header -->
+
+	<!-- container -->
+	<section id="container">
+		<div class="pageHead">
+			<h1 class="pageTitle">피부타입별</h1>
+			<p class="location">
+				<a href="#">Home</a> &gt;
+				<span>products</span>
+			</p>
+		</div>
+		<div class="contents">
+			<!-- 검색 결과 -->
+			<div class="searchResult">
+				<p class="txt">찾으시는 검색어는 ‘<strong class="txtColor3">토너</strong>’ 입니다.</p>
+				<div class="list">
+					<p>
+						<strong>제품종류별</strong> <span class="sym">&gt; </span>
+						<span>토너 (12)</span>
+					</p>
+					<p>
+						<strong>브랜드 존</strong> <span class="sym">&gt; </span>
+						<span>쎼라덤 (3)</span>
+						<span>히스토랩 (4)</span>
+						<span>더마허브 (1)</span>
+						<span>라덤 (3)</span>
+						<span>쎼라덤 (3)</span>
+						<span>히스토랩 (4)</span>
+						<span>더마허브 (1)</span>
+						<span>라덤 (3)</span>
+					</p>
+					<p>
+						<strong>피부타입별</strong> <span class="sym">&gt; </span>
+						<span>지성 (3)</span>
+						<span>복합성 (4)</span>
+						<span>건성 (1)</span>
+					</p>
+				</div>
+			</div>
+			<!-- //검색 결과 -->
+
+			<!-- 제품종류별 -->
+			<div class="tabListType4 tabItem8">
+				<ul>
+					<li><a href="#">클렌저</a></li>
+					<li class="current"><a href="#">토너</a></li>
+					<li><a href="#">로션/에멀전</a></li>
+					<li><a href="#">스팟/코렉터</a></li>
+					<li><a href="#">세럼</a></li>
+					<li><a href="#">크림</a></li>
+					<li><a href="#">BB/선블록</a></li>
+					<li><a href="#">스페셜</a></li>
+				</ul>
+			</div>
+			<!-- //제품종류별 -->
+
+			<!-- 피부타입별 -->
+			<div class="tabListType4 tabItem5">
+				<ul>
+					<li><a href="#">민감성피부</a></li>
+					<li class="current"><a href="#">건성/노화피부</a></li>
+					<li><a href="#">기미/잡티/색소피부</a></li>
+					<li><a href="#">지성/여드름피부</a></li>
+					<li><a href="#">모든피부</a></li>
+				</ul>
+			</div>
+			<!-- //피부타입별 -->
+
+			<div class="prodListTop">
+				<div class="sortTab">
+					<ul>
+						<li><a href="#">낮은가격순</a></li>
+						<li class="current"><a href="#">높은가격순</a></li>
+						<li><a href="#">인기순</a></li>
+						<li><a href="#">신상품순</a></li>
+						<li><a href="#">가격대별</a></li>
+						<li><a href="#">할인상품</a></li>
+					</ul>
+				</div>
+				<p class="btnSmart"><button type="button">SMART SEARCH</button></p>
+			</div>
+
+			<div class="prodListTop">
+				<div class="sortTab">
+					<ul>
+						<li><a href="#">낮은가격순</a></li>
+						<li class="current"><a href="#">높은가격순</a></li>
+						<li><a href="#">인기순</a></li>
+						<li><a href="#">신상품순</a></li>
+						<li><a href="#">가격대별</a></li>
+						<li><a href="#">할인상품</a></li>
+					</ul>
+				</div>
+				<p class="btnSmart"><button type="button" class="on">SMART SEARCH</button></p> <!-- 스마트서치 오픈시 class="on" -->
+				<div class="smartSet">
+					<div class="smartSetTop">
+						<div class="age">
+							<h2 class="tit">AGE</h2>
+							<label><input type="radio" class="inputChk" /> 전체</label>
+							<label><input type="radio" class="inputChk" /> 30대</label>
+							<label><input type="radio" class="inputChk" /> 10대</label>
+							<label><input type="radio" class="inputChk" /> 40대이상</label>
+							<label><input type="radio" class="inputChk" /> 20대</label>
+						</div>
+						<div class="price">
+							<h2 class="tit">PRICE</h2>
+							<label><input type="radio" class="inputChk" /> ~3만원</label>
+							<label><input type="radio" class="inputChk" /> 10만원~20만원</label>
+							<label><input type="radio" class="inputChk" /> 3만원~10만원</label>
+							<label><input type="radio" class="inputChk" /> 20만원~30만원</label>
+						</div>
+						<div class="type">
+							<h2 class="tit">PRODUCT TYPE</h2>
+							<label><input type="checkbox" class="inputChk" /> 클렌저</label>
+							<label><input type="checkbox" class="inputChk" /> 스팟/코렉터</label>
+							<label><input type="checkbox" class="inputChk" /> 비비/썬블럭</label>
+							<label><input type="checkbox" class="inputChk" /> 토너</label>
+							<label><input type="checkbox" class="inputChk" /> 세럼</label>
+							<label><input type="checkbox" class="inputChk" /> 마스크</label>
+							<label><input type="checkbox" class="inputChk" /> 로션/에멀전</label>
+							<label><input type="checkbox" class="inputChk" /> 크림</label>
+							<label><input type="checkbox" class="inputChk" /> 기타</label>
+						</div>
+					</div>
+					<div class="brand">
+						<h2 class="tit">BRAND</h2>
+						<label><input type="checkbox" class="inputChk" /> 쎄라덤</label>
+						<label><input type="checkbox" class="inputChk" /> 에피큐렌</label>
+						<label><input type="checkbox" class="inputChk" /> 사투르니아</label>
+						<label><input type="checkbox" class="inputChk" /> 세타필</label>
+						<label><input type="checkbox" class="inputChk" /> 카스마라</label>
+						<label><input type="checkbox" class="inputChk" /> 마리꼬</label>
+						<label><input type="checkbox" class="inputChk" /> 소티스</label>
+						<label><input type="checkbox" class="inputChk" /> 히스토랩</label>
+						<label><input type="checkbox" class="inputChk" /> 라로슈포제</label>
+						<label><input type="checkbox" class="inputChk" /> 호메타</label>
+						<label><input type="checkbox" class="inputChk" /> 데이롱</label>
+						<label><input type="checkbox" class="inputChk" /> 세렌디뷰티</label>
+						<label><input type="checkbox" class="inputChk" /> 기노</label>
+						<label><input type="checkbox" class="inputChk" /> 산수시</label>
+
+						<button type="button" class="more">브랜드더보기</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="prodListTop">
+				<div class="sortTab">
+					<ul>
+						<li><a href="#">낮은가격순</a></li>
+						<li class="current"><a href="#">높은가격순</a></li>
+						<li><a href="#">인기순</a></li>
+						<li><a href="#">신상품순</a></li>
+						<li><a href="#">가격대별</a></li>
+						<li><a href="#">할인상품</a></li>
+					</ul>
+				</div>
+				<p class="btnSmart"><button type="button" class="on">SMART SEARCH</button></p> <!-- 스마트서치 오픈시 class="on" -->
+				<div class="smartSet">
+					<div class="smartSetTop">
+						<div class="age">
+							<h2 class="tit">AGE</h2>
+							<label><input type="radio" class="inputChk" /> 전체</label>
+							<label><input type="radio" class="inputChk" /> 30대</label>
+							<label><input type="radio" class="inputChk" /> 10대</label>
+							<label><input type="radio" class="inputChk" /> 40대이상</label>
+							<label><input type="radio" class="inputChk" /> 20대</label>
+						</div>
+						<div class="price">
+							<h2 class="tit">PRICE</h2>
+							<label><input type="radio" class="inputChk" /> ~3만원</label>
+							<label><input type="radio" class="inputChk" /> 10만원~20만원</label>
+							<label><input type="radio" class="inputChk" /> 3만원~10만원</label>
+							<label><input type="radio" class="inputChk" /> 20만원~30만원</label>
+						</div>
+						<div class="type">
+							<h2 class="tit">PRODUCT TYPE</h2>
+							<label><input type="checkbox" class="inputChk" /> 클렌저</label>
+							<label><input type="checkbox" class="inputChk" /> 스팟/코렉터</label>
+							<label><input type="checkbox" class="inputChk" /> 비비/썬블럭</label>
+							<label><input type="checkbox" class="inputChk" /> 토너</label>
+							<label><input type="checkbox" class="inputChk" /> 세럼</label>
+							<label><input type="checkbox" class="inputChk" /> 마스크</label>
+							<label><input type="checkbox" class="inputChk" /> 로션/에멀전</label>
+							<label><input type="checkbox" class="inputChk" /> 크림</label>
+							<label><input type="checkbox" class="inputChk" /> 기타</label>
+						</div>
+					</div>
+					<div class="brand">
+						<h2 class="tit">BRAND</h2>
+						<label><input type="checkbox" class="inputChk" /> 쎄라덤</label>
+						<label><input type="checkbox" class="inputChk" /> 에피큐렌</label>
+						<label><input type="checkbox" class="inputChk" /> 사투르니아</label>
+						<label><input type="checkbox" class="inputChk" /> 세타필</label>
+						<label><input type="checkbox" class="inputChk" /> 카스마라</label>
+						<label><input type="checkbox" class="inputChk" /> 마리꼬</label>
+						<label><input type="checkbox" class="inputChk" /> 소티스</label>
+						<label><input type="checkbox" class="inputChk" /> 히스토랩</label>
+						<label><input type="checkbox" class="inputChk" /> 라로슈포제</label>
+						<label><input type="checkbox" class="inputChk" /> 호메타</label>
+						<label><input type="checkbox" class="inputChk" /> 데이롱</label>
+						<label><input type="checkbox" class="inputChk" /> 세렌디뷰티</label>
+						<label><input type="checkbox" class="inputChk" /> 기노</label>
+						<label><input type="checkbox" class="inputChk" /> 산수시</label>
+						<label><input type="checkbox" class="inputChk" /> 디엠에스</label>
+						<label><input type="checkbox" class="inputChk" /> 스킨수티컬즈</label>
+						<label><input type="checkbox" class="inputChk" /> 이안셀</label>
+						<label><input type="checkbox" class="inputChk" /> 엑시피알</label>
+						<label><input type="checkbox" class="inputChk" /> 셀피움</label>
+						<label><input type="checkbox" class="inputChk" /> 바게지</label>
+						<label><input type="checkbox" class="inputChk" /> 레파차지</label>
+						<label><input type="checkbox" class="inputChk" /> 셀퓨전씨</label>
+						<label><input type="checkbox" class="inputChk" /> 더말로지카</label>
+						<label><input type="checkbox" class="inputChk" /> 트리코민</label>
+						<label><input type="checkbox" class="inputChk" /> 벤자케어</label>
+						<label><input type="checkbox" class="inputChk" /> 피토메르</label>
+						<label><input type="checkbox" class="inputChk" /> 페보니아</label>
+						<label><input type="checkbox" class="inputChk" /> 데쌍브르</label>
+						<label><input type="checkbox" class="inputChk" /> 더마허브</label>
+						<label><input type="checkbox" class="inputChk" /> 닥터랩</label>
+						<label><input type="checkbox" class="inputChk" /> 탈스</label>
+						<label><input type="checkbox" class="inputChk" /> 르뮤</label>
+						<label><input type="checkbox" class="inputChk" /> 딸고</label>
+						<label><input type="checkbox" class="inputChk" /> 드끌레오</label>
+						<label><input type="checkbox" class="inputChk" /> 빠이요</label>
+						<label><input type="checkbox" class="inputChk" /> 아더마</label>
+						<label><input type="checkbox" class="inputChk" /> 아벤느</label>
+						<label><input type="checkbox" class="inputChk" /> 가우스</label>
+						<label><input type="checkbox" class="inputChk" /> 디끌라레</label>
+						<label><input type="checkbox" class="inputChk" /> 디에고달라팔마</label>
+						<label><input type="checkbox" class="inputChk" /> RVB</label>
+						<label><input type="checkbox" class="inputChk" /> 안카바디</label>
+						<label><input type="checkbox" class="inputChk" /> 셀렉스-C</label>
+
+						<button type="button" class="more brandHide">브랜드숨기기</button> <!-- 브랜드 모두 보기 시에 -->
+					</div>
+				</div>
+			</div>
+
+			<div class="prodList">
+				<ul class="prodListType4">
+					<li>
+						<span class="prodLabel label1">최저가</span>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<del>42,000원</del>
+							<strong class="sale">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="prodLabel label2">20%</span>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="prodLabel label3">BEST</span>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<del>42,000원</del>
+							<strong class="sale">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<del>42,000원</del>
+							<strong class="sale">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+					<li>
+						<span class="thumb">
+							<img src="images/img_sample4.jpg" alt="" />
+						</span>
+						<a href="#" class="prodLink">
+							<span class="txt">[히스토랩] 페이드 아웃<br /> 히스토 K크림 12ml </span>
+							<strong class="price">35,000원</strong>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pagination">
+				<a href="#" class="pageNavi pageStart">처음으로</a>
+				<a href="#" class="pageNavi pagePrev">이전</a>
+				<span class="pageNum">
+					<strong>1</strong>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+				</span>
+				<a href="#" class="pageNavi pageNext">다음</a>
+				<a href="#" class="pageNavi pageEnd">끝으로</a>
+			</div>
+
+		</div>
+	</section>
+	<!-- //container -->
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="footWrap">
+			<section class="footNoti">
+				<h2>공지사항</h2>
+				<p><a href="#">9월 추석연휴 배송안내9월 추석연휴 배송안내9월 추석연휴 배송안내9월 추석연휴 배송안내9월 추석연휴 배송안내</a><span class="new">새글</span></p>
+			</section>
+			<p class="footLink">
+				<a href="#">1:1 문의/제품상담</a>
+				<a href="#">Q&amp;A</a>
+				<a href="#">최저가보상이란?</a>
+			</p>
+		</div>
+		<div class="fooInfoWrap">
+			<div class="footInfoMenu">
+				<nav>
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보 취급방침</a></li>
+						<li><a href="#">이메일 무단수집 거부</a></li>
+						<li><a href="#">고객센터</a></li>
+						<li><a href="#">사업자정보조회</a></li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footInfoSection">
+				<div>
+					<h3>Medi skin</h3>
+					<p class="footInfo">
+						<span>업체명 : 메디스킨홀딩스</span>
+						<span>대표이사 : 선우유정</span>
+						<span>서울시 강남구 논현로 826(신사동, 2층)</span>
+						<span>02-542-0175</span>
+						<span>fax : 02-547-6275</span><br />
+						<span>사업자 등록번호 : 4565121545212</span>
+						<span>통신판매업신고 : 41512124451</span>
+						<span>개인정보관리 책임자 : 선우유정 sdfsdf@sdfsdf.com</span><br />
+						<small>(c) mediskin all right reserved.</small>
+					</p>
+					<p class="footTimeTell">
+						<span>고객센터</span>
+						<strong>1577-5124</strong>
+						상담시간 : 10:00 ~ 18:00<br />
+						점심시간 : 11:30~2:00 (주말 및 공휴일 휴무)
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script type="text/javascript">
+	menu(); // 메뉴활성화
+	</script>
+
+</body>
+</html>
