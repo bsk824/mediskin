@@ -64,7 +64,7 @@
 .prodDetailInfo td .option {display:inline-block;position:relative;margin:0 7px 0 0;padding:0 24px;border:1px solid #c2c7cc;vertical-align:middle;}
 .prodDetailInfo td .option button {position:absolute;top:0;left:0;overflow:hidden;width:24px;height:24px;background:url(../images/btn_prod_minus.gif) no-repeat;text-indent:-9999px;}
 .prodDetailInfo td .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
-.prodDetailInfo td .option span {display:inline-block;min-width:24px;line-height:24px;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;text-align:center;}
+.prodDetailInfo td .option .inputTxt {display:inline-block;width:24px;height:24px;border:0;padding:0;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;text-align:center;}
 .prodDetailInfo .btnWrap {margin:13px 0 0;}
 .prodDetailInfo .btnWrap span {float:left;width:50%;}
 .prodDetailInfo .btnWrap span a {display:block;margin:4px;}

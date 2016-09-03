@@ -248,7 +248,7 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList .prodBtn .option {display:inline-block;position:relative;margin:0 7px 0 0;padding:0 24px;border:1px solid #c2c7cc;vertical-align:middle;}
 .tableList .prodBtn .option button {position:absolute;top:0;left:0;overflow:hidden;width:24px;height:24px;background:url(../images/btn_prod_minus.gif) no-repeat;text-indent:-9999px;}
 .tableList .prodBtn .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
-.tableList .prodBtn .option span {display:inline-block;min-width:24px;line-height:24px;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;}
+.tableList .prodBtn .option .inputTxt {display:inline-block;width:24px;line-height:24px;padding:0;border:0;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;text-align:center;}
 .tableList .prodBtn .del {display:inline-block;overflow:hidden;width:26px;height:26px;background:url(../images/btn_prod_del.gif) no-repeat;text-indent:-9999px;}
 .tableList .total {color:#181818;font-size:16px;font-weight:400;}
 .tableList .totalPrice p {padding:25px 35px;text-align:right;border:6px solid #c8c8c8;color:#232323;}
