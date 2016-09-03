@@ -83,14 +83,14 @@
 .prodList .labelRank {position:absolute;top:-1px;left:10px;width:35px;height:34px;padding:3px 0 0;background:url(../images/bg_rank.png) no-repeat;text-align:center;color:#f5f7fa;font-size:16px;font-weight:100;z-index:2;}
 .prodList .labelRank1 {left:12px;width:50px;height:54px;background:url(../images/bg_rank1.png) no-repeat;font-size:24px;}
 .prodList .labelRank2 {background:url(../images/bg_rank2.png) no-repeat;}
+.prodList .basket {display:none;position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;background:url(../images/bg_basket.png) no-repeat 50% 50%;text-indent:-9999px;}
 .prodList .thumb {position:relative;display:block;overflow:hidden;width:146px;height:146px;border-radius:50%;}
-.prodList .thumb .basket {display:none;position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;background:url(../images/bg_basket.png) no-repeat 50% 50%;text-indent:-9999px;}
 .prodList .thumb:hover .basket {display:block;}
 .prodList .prodLink {display:block;text-align:center;}
 .prodList .txt {display:block;overflow:hidden;height:40px;margin:20px 0 0;color:#505050;text-align:center;}
-.prodList .prodLink del {color:#979797;}
-.prodList .prodLink .sale {margin:0 0 0 6px;color:#e91844;font-size:18px;}
-.prodList .prodLink .price {color:#1d1d1d;font-size:18px;}
+.prodList del {color:#979797;}
+.prodList .sale {margin:0 0 0 6px;color:#e91844;font-size:18px;}
+.prodList .price {color:#1d1d1d;font-size:18px;}
 
 .prodList .prodListType2 {}
 .prodListType2 .thumb {width:145px;height:145px;border-radius:0;border:1px solid #e1e1e1;}
@@ -110,6 +110,17 @@
 .prodListType4 .thumb img {max-width:100%;max-height:100%;}
 .prodListType4 .prodLabel {left:auto;top:17px;right:20px;}
 .prodListType4 .txt {margin:0;}
+
+.prodList .prodListType5 {margin:-50px 0 0;}
+.prodListType5 li {position:relative;width:25%;height:430px;margin:50px 0 0;}
+.prodListType5 li:after {content:"";position:absolute;top:0;right:0;bottom:0;left:-1px;border:1px solid #e8e8e8;z-index:-1;}
+.prodListType5 .wrap {display:block;position:relative;height:385px;text-align:center;}
+.prodListType5 .wrap:hover .basket {display:block;right:1px;}
+.prodListType5 .thumb {width:260px;height:280px;margin:1px auto 0;border-radius:0;text-align:center;}
+.prodListType5 .thumb img {max-width:100%;max-height:100%;}
+.prodListType5 .prodLabel {left:auto;top:17px;right:20px;}
+.prodListType5 .txt {margin:0;}
+.prodListType5 .btnBuy {position:absolute;right:0;bottom:0;left:-1px;height:43px;line-height:43px;border:1px solid #686f75;text-align:center;color:#323232;font-size:20px;}
 /* //제품 리스트 */
 
 /* 타이틀 */
@@ -117,7 +128,9 @@
 
 .subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
 .subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;line-height:1.1;}
+.subTitle2 span {margin:0 0 0 10px;color:#737373;font-size:14px;font-weight:100;}
 .titOpt {float:right;margin-top:-30px;}
+.titBtn {float:right;margin-top:-45px;}
 /* //타이틀 */
 
 /* 컨텐츠간 간격 */
@@ -136,7 +149,7 @@
 
 .tabListType2 ul {zoom:1;}
 .tabListType2 ul:after {content:"";display:block;clear:both;}
-.tabListType2 li {float:left;padding:0 15px;border-left:1px solid #c0c0c0;}
+.tabListType2 li {float:left;width:auto !important;padding:0 15px;border-left:1px solid #c0c0c0;}
 .tabListType2 li:first-child {padding-left:0;border:0;}
 .tabListType2 a {color:#303030;font-size:16px;}
 .tabListType2 .current a {padding-left:22px;background:url(../images/icon_tabtype2_on.png) no-repeat 0 4px;font-weight:bold;}
@@ -176,6 +189,14 @@
 .bbsList .subject a.on {font-weight:500;}
 .bbsList .answer {display:none;}
 .bbsList .answer td {height:auto;padding:35px 35px 35px 135px;background:#f5f5f5 url(../images/bg_faq_a.gif) no-repeat 100px 30px;text-align:left;}
+.bbsList .answer2 {display:none;}
+.bbsList .answer2 td {text-align:left;}
+.bbsList .userCon {padding:10px 175px 10px 135px;}
+.bbsList .answerCon {position:relative;padding:15px 175px 15px 135px;background:#f6f6f6;border-top:1px solid #eee;}
+.bbsList .answerCon .name {display:block;margin:0 0 10px;font-size:13px;} 
+.bbsList .answerCon .date {position:absolute;top:10px;right:52px;}
+.bbsList .answerCon p {color:#4c7982;}
+
 
 .bbsView {border-top:1px solid #555;}
 .bbsView .viewHead {position:relative;background:#fcfcfc;border-bottom:1px solid #ddd;}
@@ -268,6 +289,7 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList .gift span strong {display:block;font-size:24px;}
 .tableList .gift span:after {content:"";position:absolute;top:50%;right:-16px;border:16px solid transparent;border-left:16px solid #fff;border-right:0;}
 .tableList .gift img {float:right;}
+.tableList label {margin:0 10px 0 0;}
 
 table .alC {text-align:center;}
 table .alR {text-align:right;}

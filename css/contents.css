@@ -102,11 +102,88 @@
 .prodReview li .date {width:120px;text-align:center;}
 .prodReview li .con {display:none;padding:15px 15px 15px 208px;background:#f7f7f7;border-top:1px solid #d8d8d8;color:#838383;font-size:13px;}
 
+.mypageMainTop {height:137px;border:1px solid #2e323e;border-top:2px solid #2e323e;}
+.mypageMainTop .myClass {float:left;width:164px;height:100%;}
+.mypageMainTop .myClassInfo {float:left;width:270px;height:119px;padding:18px 0 0 25px;background:#f9f9f9;}
+.mypageMainTop .myClassInfo .tit {color:#141414;font-weight:normal;}
+.mypageMainTop .myClassInfo .txt {display:block;margin:8px 0 12px;font-size:11px;color:#868685;}
+.mypageMainTop .myClassInfo .txt span {color:#383838;}
+.mypageMainTop .myClassInfo .txt strong {color:#353534;}
+.mypageMainTop .orderInfo {float:left;width:220px;height:117px;padding:20px 0 0 25px;}
+.mypageMainTop .orderInfo .tit {color:#141414;font-size:12px;font-weight:normal;}
+.mypageMainTop .orderInfo .list {overflow:hidden;margin:5px 0 8px -25px;color:#4e4a4a;font-size:12px;}
+.mypageMainTop .orderInfo .list li {float:left;width:90px;margin:3px 0 0;padding:0 0 0 25px;}
+.mypageMainTop .orderInfo .list li span {color:#141414;}
+.mypageMainTop .orderInfo .list li span:first-child {display:inline-block;width:38px;color:#4e4a4a;}
+.mypageMainTop .mySet {float:right;width:339px;height:134px;padding:3px 0 0;;background:#f9f9f9;}
+.mypageMainTop .mySet dl {float:left;width:170px;padding:0 0 0 28px;}
+.mypageMainTop .mySet dt {margin:15px 0 5px;color:#141414;font-size:12px;font-weight:normal;}
+.mypageMainTop .mySet dd {color:#946f2d;font-size:11px;}
+.mypageMainTop .mySet .btn {float:right;width:93px;height:25px;margin:20px 23px 0 0;padding:68px 0 0;background:#fff url(../images/contents/bg_my_set.gif) no-repeat 50% 17px;border:1px solid #cbcbcb;color:#3e5f66;font-size:11px;font-weight:normal;text-align:center;}
+
+.myPoint {margin:22px 0 15px;padding:14px 0;background:#266477;border:1px solid #434343;color:#fff;}
+.myPoint th {height:24px;border-right:1px solid #f9f9f9;font-weight:100;}
+.myPoint td {height:24px;padding:0 0 0 35px;font-size:13px;}
+.myPoint .txt1 {font-size:14px;}
+.myPoint .txt2 {color:#fffc00;font-size:22px;line-height:1;}
+
+.mypageNav {margin:24px 0 0;zoom:1;border:1px solid #e8e8e8;}
+.mypageNav:after {content:"";display:block;clear:both;}
+.mypageNav .menu1 {background:url(../images/contents/bg_mypage_menu1.gif) no-repeat;}
+.mypageNav .menu2 {background:#f8f8f8 url(../images/contents/bg_mypage_menu2.gif) no-repeat;}
+.mypageNav .menu3 {background:url(../images/contents/bg_mypage_menu3.gif) no-repeat;}
+.mypageNav .menu4 {background:#f8f8f8 url(../images/contents/bg_mypage_menu4.gif) no-repeat;}
+.mypageNav .menu5 {background:#f8f8f8 url(../images/contents/bg_mypage_menu5.gif) no-repeat;}
+.mypageNav .menu6 {background:url(../images/contents/bg_mypage_menu6.gif) no-repeat;}
+.mypageNav .menu7 {background:#f8f8f8 url(../images/contents/bg_mypage_menu7.gif) no-repeat;}
+.mypageNav .menu8 {background:url(../images/contents/bg_mypage_menu8.gif) no-repeat;}
+.mypageNav li {float:left;width:25%;}
+.mypageNav li a {display:block;height:170px;padding:60px 40px 0 0;text-align:right;}
+.mypageNav li .tit {display:block;color:#2c7c8b;font-size:24px;font-weight:bold;letter-spacing:-1px;}
+.mypageNav li .sub {display:block;color:#898989;}
+.mypageNav li .txt {display:block;margin:20px 0 0;color:#a1a1a1;font-size:11px;font-weight:100;}
+.mypageNav li a:hover .tit {color:#ff1e00;}
+.mypageNav li a:hover .sub {color:#202020;}
+
+.myTab {margin:0 0 30px;border:1px solid #dadada;border-top:2px solid #2e323e;}
+.myTab ul {zoom:1;}
+.myTab ul:after {content:"";display:block;clear:both;}
+.myTab li {float:left;width:12.5%;}
+.myTab a {display:block;padding:15px 0 18px;border-left:1px solid #dadada;color:#7a7a7a;text-align:center;}
+.myTab li:first-child a {border:0;}
+.myTab .current a {background:#f9f9f9;color:#ed5307;}
+.myTab a:before {content:"";display:block;width:60px;height:50px;margin:0 auto 5px;background:url(../images/contents/icon_mytab.png) no-repeat;}
+.myTab .current .tab1:before {background-position:0 -50px;}
+.myTab .tab2:before {background-position:-60px 0;}
+.myTab .current .tab2:before {background-position:-60px -50px;}
+.myTab .tab3:before {background-position:-120px 0;}
+.myTab .current .tab3:before {background-position:-120px -50px;}
+.myTab .tab4:before {background-position:-180px 0;}
+.myTab .current .tab4:before {background-position:-180px -50px;}
+.myTab .tab5:before {background-position:-240px 0;}
+.myTab .current .tab5:before {background-position:-240px -50px;}
+.myTab .tab6:before {background-position:-300px 0;}
+.myTab .current .tab6:before {background-position:-300px -50px;}
+.myTab .tab7:before {background-position:-360px 0;}
+.myTab .current .tab7:before {background-position:-360px -50px;}
+.myTab .tab8:before {background-position:-420px 0;}
+.myTab .current .tab8:before {background-position:-420px -50px;}
+
+.myCoupon {margin:0 0 30px;text-align:right;}
+.myCoupon p {float:left;font-size:11px;text-align:left;}
+.myCoupon .inputTxt {height:25px;font-size:12px;}
+
+
+
+
+.mypageProdList h2 {margin:60px 0 12px;color:#303030;font-size:18px;font-weight:500;}
+
+
 .csTab {margin:0 0 60px;border:1px solid #dadada;}
 .csTab ul {zoom:1;}
 .csTab ul:after {content:"";display:block;clear:both;}
 .csTab li {float:left;width:20%;}
-.csTab a {display:block;padding:15px 0 18px;color:#555;font-size:14px;text-align:center;border-left:1px solid #dadada;}
+.csTab a {display:block;padding:15px 0 18px;color:#555;border-left:1px solid #dadada;text-align:center;}
 .csTab li:first-child a {border:0;}
 .csTab .current a {background:#f9f9f9;color:#fb5300;}
 .csTab a:before {content:"";display:block;width:50px;height:50px;margin:0 auto 5px;background:url(../images/contents/icon_cstab.png) no-repeat;}
