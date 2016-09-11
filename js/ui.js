@@ -2,6 +2,8 @@ function menu(d1,d2) {
 	var header = $('#header')
 		,d1List = header.find('#gnb > ul > li > a')
 		,d2Wrap = header.find('.dep2')
+		,d2List = d2Wrap.find('> div > .list > li > a') 
+		,d3Wrap = header.find('.dep3')
 		,d1Current = d1 - 1
 		,d2Current = d2 - 1
 		,gnbStatus;
@@ -20,6 +22,14 @@ function menu(d1,d2) {
 		} else {
 			d2Wrap.hide();
 			_this.next().show();
+		}
+	});
+	d2List.on('mouseenter', function(){
+		var _this = $(this);
+
+		if (_this.next().hasClass('dep3')) {
+			d2List.parent().removeClass('on');
+			_this.parent().addClass('on');
 		}
 	});
 	header.on('mouseleave', function(){
