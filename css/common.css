@@ -145,6 +145,7 @@
 .subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
 .subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;line-height:1.1;}
 .subTitle2 span {margin:0 0 0 10px;color:#737373;font-size:14px;font-weight:100;}
+.subTitle3 {margin:0 0 10px 20px;color:#2f2f2f;font-size:18px;font-weight:500;}
 .titOpt {float:right;margin-top:-30px;}
 .titBtn {float:right;margin-top:-45px;}
 /* //타이틀 */
@@ -254,6 +255,11 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .bbsWrite td {height:26px;padding:10px 0;}
 .bbsWrite .inputTxt {padding:4px 5px;}
 .bbsWrite select {height:30px;}
+.bbsWrite .point {display:inline-block;overflow:hidden;width:91px;height:15px;margin:0 60px 0 0;background:url(../images/icon_point.gif) no-repeat 0 -60px;text-indent:-9999px;vertical-align:-1px;}
+.bbsWrite .point1 {width:18px;}
+.bbsWrite .point2 {width:36px;}
+.bbsWrite .point3 {width:54px;}
+.bbsWrite .point4 {width:72px;}
 
 .pagination {position:relative;margin:35px 0 0;text-align:center;}
 .pagination .pageNavi,
@@ -374,4 +380,5 @@ button.btnB3 {height:44px;line-height:1.2;}
 .txtColor {color:#ed7500 !important;}
 .txtColor2 {color:#0e6b92 !important;}
 .txtColor3 {color:#f73d04 !important;}
+.txtColor4 {color:#0886a5 !important;}
 /* //텍스트 컬러 */
