@@ -21,7 +21,7 @@
 	<!-- header -->
 	<header id="header">
 		<div class="headTop">
-			<p class="headAlert"><a href="#" class="on">알림 <span>2</span></a></p> <!-- 알림이 있을시 a 링크에 class="on" -->
+			<p class="headAlert"><a href="#">알림 <span>2</span></a></p> <!-- 알림이 있을시 a 링크에 class="on" -->
 			<p class="headLink">
 				<a href="#" class="member">제제양님</a>
 				<a href="#">로그인</a>
@@ -183,147 +183,127 @@
 	<!-- container -->
 	<section id="container">
 		<div class="pageHead">
-			<h1 class="pageTitle">마이페이지</h1>
+			<h1 class="pageTitle">고객센터</h1>
 			<p class="location">
 				<a href="#">Home</a> &gt;
-				<span>마이페이지</span> &gt;
-				<span>배송주소록 관리</span>
+				<span>고객센터</span> &gt;
+				<span>회원혜택안내</span>
 			</p>
 		</div>
 		<div class="contents">
-
-			<nav class="myTab">
+			<div class="csTab">
 				<ul>
-					<li><a href="#" class="tab1">주문내역조회</a></li>
-					<li><a href="#" class="tab2">관심상품</a></li>
-					<li><a href="#" class="tab3">내 적립금</a></li>
-					<li><a href="#" class="tab4">내 쿠폰</a></li>
-					<li><a href="#" class="tab5">리뷰</a></li>
-					<li><a href="#" class="tab6">1:1문의하기</a></li>
-					<li class="current"><a href="#" class="tab7">배송주소록 관리</a></li>
-					<li><a href="#" class="tab8">내 정보수정</a></li>
+					<li><a href="cscenter.html" class="tab1">공지사항</a></li> <!-- 활성화시 li class="current" -->
+					<li><a href="cscenter3.html" class="tab3">FAQ</a></li>
+					<li class="current"><a href="cscenter4.html" class="tab4">회원혜택안내</a></li>
+					<li><a href="cscenter5.html" class="tab5">온라인최저가보상제</a></li>
 				</ul>
-			</nav>
-
-			<h2 class="subTitle2">배송주소록 관리</h2>
-			<p class="titBtn"><a href="#" class="btnM2 btnType9">신규 배송지 등록</a></p>
-
-			<div class="bbsList">
-				<table>
-					<caption>배송주소록 게시판</caption>
-					<colgroup>
-						<col style="width:195px" />
-						<col />
-						<col style="width:200px" />
-					</colgroup>
-					<thead>
-						<tr>
-							<th scope="col">배송지명</th>
-							<th scope="col">배송주소</th>
-							<th scope="col">관리</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>기본배송지</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>서초동</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>서초동</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
-							</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 
-			<!-- 레이어 -->
-			<div class="layerPop" style="width:485px;margin:-205px 0 0 -242px;">
-				<h1 class="layerTit">신규배송지 등록</h1>
-				<div class="layerCon">
-					<table class="bbsWrite">
-						<caption>배송지 등록</caption>
+			<h1 class="benefitTit">회원혜택안내</h1>
+			<p><img src="images/contents/img_benefit.jpg" alt="" /></p>
+
+			<section class="subSection">
+				<h2 class="subTitle4">등급별 <b>혜택</b></h2>
+				<p class="titOpt">등급 산정기간 : 1~6월/7월~12월 구매실적에 따라 선정</p>
+				<div class="bbsList bbsListType3">
+					<table class="thType1">
+						<caption>등급별 혜택</caption>
 						<colgroup>
-							<col style="width:90px" />
-							<col />
+							<col style="width:25%" />
+							<col style="width:25%" />
+							<col style="width:25%" />
+							<col style="width:25%" />
 						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">VIP</th>
+								<th scope="col">GOLD</th>
+								<th scope="col">SILVER</th>
+								<th scope="col">FAMILY</th>
+							</tr>
+						</thead>
 						<tbody>
 							<tr>
-								<th scope="row">배송지명</th>
-								<td><input type="text" class="inputTxt" style="width:120px;" /></td>
-							</tr>
-							<tr>
-								<th scope="row">받으시는분</th>
-								<td><input type="text" class="inputTxt" style="width:120px;" /></td>
-							</tr>
-							<tr>
-								<th scope="row">연락처</th>
 								<td>
-									<select style="width:100px;">
-										<option>02</option>
-									</select> -
-									<input type="text" class="inputTxt" style="width:87px;" /> -
-									<input type="text" class="inputTxt" style="width:87px;" />
+									<img src="images/contents/img_class1.jpg" alt="VIP" /><br />
+									100만원 이상 구매
 								</td>
-							</tr>
-							<tr>
-								<th scope="row">휴대폰번호</th>
 								<td>
-									<select style="width:100px;">
-										<option>010</option>
-									</select> -
-									<input type="text" class="inputTxt" style="width:87px;" /> -
-									<input type="text" class="inputTxt" style="width:87px;" />
+									<img src="images/contents/img_class2.jpg" alt="GOLD" /><br />
+									30만원 이상 구매
+								</td>
+								<td>
+									<img src="images/contents/img_class3.jpg" alt="SILVER" /><br />
+									10만원 이상 구매
+								</td>
+								<td>
+									<img src="images/contents/img_class4.jpg" alt="FAMILY" /><br />
+									회원가입시
 								</td>
 							</tr>
 							<tr>
-								<th scope="row">주소</th>
-								<td class="adrs">
-									<span>
-										<input type="text" class="inputTxt" style="width:235px;" /> <button type="button" class="btnM2 btnType1">검색</button>
-									</span>
-									<span><input type="text" class="inputTxt" style="width:311px;" /></span>
-								</td>
+								<td><img src="images/contents/img_class1_c.jpg" alt="8% 할인 쿠폰" /></td>
+								<td><img src="images/contents/img_class2_c.jpg" alt="6% 할인 쿠폰" /></td>
+								<td><img src="images/contents/img_class3_c.jpg" alt="4% 할인 쿠폰" /></td>
+								<td><img src="images/contents/img_class4_c.jpg" alt="3% 할인 쿠폰" /></td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-				<div class="btnWrap">
-					<button type="button" class="btnM btnType1">삭제</button>
-					<button type="button" class="btnM btnType12">저장</button>
-				</div>
-				<p><button type="button" class="layerClose">레이어닫기</button></p>
-			</div>
-			<!-- //레이어 -->
 
+			</section>
+
+			<section class="subSection">
+				<h2 class="subTitle4">구매금액별 <b>사은품</b></h2>
+				<p class="titOpt">회원등급과 상관없이 결제금액 기준으로 제공합니다.</p>
+				<div class="bbsList bbsListType3">
+					<table class="thType2">
+						<caption>등급별 혜택</caption>
+						<colgroup>
+							<col style="width:16%" />
+							<col style="width:16%" />
+							<col style="width:16%" />
+							<col style="width:16%" />
+							<col style="width:16%" />
+							<col style="width:16%" />
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">전 구매고객</th>
+								<th scope="col">5만원 이상</th>
+								<th scope="col">10만원 이상</th>
+								<th scope="col">20만원 이상</th>
+								<th scope="col">30만원 이상</th>
+								<th scope="col">50만원 이상</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src="images/contents/img_benefit_sample1.jpg" alt="" /></td>
+								<td><img src="images/contents/img_benefit_sample2.jpg" alt="" /></td>
+								<td><img src="images/contents/img_benefit_sample3.jpg" alt="" /></td>
+								<td><img src="images/contents/img_benefit_sample4.jpg" alt="" /></td>
+								<td><img src="images/contents/img_benefit_sample5.jpg" alt="" /></td>
+								<td><img src="images/contents/img_benefit_sample6.jpg" alt="" /></td>
+							</tr>
+							<tr>
+								<td>더마허브 마스크 1장<br /> + 샘플 5종</td>
+								<td>더마허브 마스크 2장<br /> + 샘플 5종</td>
+								<td>더마허브 마스크 4장<br /> + 샘플 10종</td>
+								<td>더마허브<br />셀 화이트닝 비비<br />+ 샘플 10종</td>
+								<td>더마허브<br />허브톡스 세럼<br />+ 샘플 20종</td>
+								<td>더마허브 3종 패키지<br />+ 샘플 20종</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<p class="subSection"><img src="images/contents/img_benefit2.jpg" alt="" /></p>
+
+			</section>
 		</div>
+
 	</section>
 	<!-- //container -->
 

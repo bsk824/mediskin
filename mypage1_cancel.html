@@ -187,141 +187,157 @@
 			<p class="location">
 				<a href="#">Home</a> &gt;
 				<span>마이페이지</span> &gt;
-				<span>배송주소록 관리</span>
+				<span>주문상세보기</span>
 			</p>
 		</div>
 		<div class="contents">
 
 			<nav class="myTab">
 				<ul>
-					<li><a href="#" class="tab1">주문내역조회</a></li>
+					<li class="current"><a href="#" class="tab1">주문내역조회</a></li>
 					<li><a href="#" class="tab2">관심상품</a></li>
 					<li><a href="#" class="tab3">내 적립금</a></li>
 					<li><a href="#" class="tab4">내 쿠폰</a></li>
 					<li><a href="#" class="tab5">리뷰</a></li>
 					<li><a href="#" class="tab6">1:1문의하기</a></li>
-					<li class="current"><a href="#" class="tab7">배송주소록 관리</a></li>
+					<li><a href="#" class="tab7">배송주소록 관리</a></li>
 					<li><a href="#" class="tab8">내 정보수정</a></li>
 				</ul>
 			</nav>
 
-			<h2 class="subTitle2">배송주소록 관리</h2>
-			<p class="titBtn"><a href="#" class="btnM2 btnType9">신규 배송지 등록</a></p>
+			<h1 class="subTitle2">주문취소하기</h1>
 
-			<div class="bbsList">
+			<p class="orderNumber">
+				주문번호 <strong class="txtColor3">20160922-0126846DFE6848</strong>
+			</p>
+			<div class="tableList tableListType3">
 				<table>
-					<caption>배송주소록 게시판</caption>
+					<caption>취소사유작성</caption>
 					<colgroup>
-						<col style="width:195px" />
+						<col style="width:130px" />
 						<col />
-						<col style="width:200px" />
 					</colgroup>
-					<thead>
-						<tr>
-							<th scope="col">배송지명</th>
-							<th scope="col">배송주소</th>
-							<th scope="col">관리</th>
-						</tr>
-					</thead>
 					<tbody>
 						<tr>
-							<td>기본배송지</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>서초동</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
-							</td>
-						</tr>
-						<tr>
-							<td>서초동</td>
-							<td class="adrs">
-								받는사람 : 이정은<br />
-								000-000-1488 / 010-3797-1488<br />
-								주소 : 서울서초구효령로67길 34,101동702호(서초동,경남아너스빌)
-							</td>
-							<td>
-								<button type="button" class="btnS btnType6">수정</button>
-								<button type="button" class="btnS btnType6">삭제</button>
+							<th scope="row">취소사유</th>
+							<td class="reason">
+								<select style="width:330px;">
+									<option>단순 변심</option>
+								</select>
+								<input type="text" class="inputTxt" style="width:860px;" />
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 
-			<!-- 레이어 -->
-			<div class="layerPop" style="width:485px;margin:-205px 0 0 -242px;">
-				<h1 class="layerTit">신규배송지 등록</h1>
-				<div class="layerCon">
-					<table class="bbsWrite">
-						<caption>배송지 등록</caption>
+			<section class="subSection">
+				<h2 class="subTitle3">취소 상품 정보</h2>
+				<div class="bbsList">
+					<table>
+						<caption>취소 상품 정보</caption>
 						<colgroup>
-							<col style="width:90px" />
+							<col style="width:135px" />
+							<col />
+							<col style="width:165px" />
+							<col style="width:125px" />
+							<col style="width:150px" />
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col" colspan="2">주문번호/상품명</th>
+								<th scope="col">판매가</th>
+								<th scope="col">수량</th>
+								<th scope="col">합계</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="prodImg2">
+									<img src="images/img_sample.gif" alt="">
+								</td>
+								<td class="alL">
+									[더마허브] 화이트제이드 마스크
+								</td>
+								<td><span class="txtColor3">45,000</span>원</td>
+								<td>1개</td>
+								<td><span class="txtColor3">45,000</span>원</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="5">
+									주문금액합계 45,000원 <span>+</span>
+									배송비 0원 <span>=</span>
+									<strong class="txtColor3">45,000</strong>원
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</section>
+
+			<section class="subSection">
+				<h2 class="subTitle3">환불내역</h2>
+				<div class="tableList tableListType3">
+					<table>
+						<caption>실 환불 금액</caption>
+						<colgroup>
+							<col style="width:130px" />
+							<col style="width:210px" />
+							<col style="width:130px" />
+							<col style="width:210px" />
 							<col />
 						</colgroup>
 						<tbody>
 							<tr>
-								<th scope="row">배송지명</th>
-								<td><input type="text" class="inputTxt" style="width:120px;" /></td>
+								<th scope="row">주문금액</th>
+								<td colspan="5"><strong>11,500원</strong></td>
 							</tr>
 							<tr>
-								<th scope="row">받으시는분</th>
-								<td><input type="text" class="inputTxt" style="width:120px;" /></td>
+								<th scope="row">포인트사용</th>
+								<td><strong>2,000원</strong></td>
+								<th scope="row">쿠폰할인</th>
+								<td><strong>2,000원</strong></td>
+								<th scope="row">배송비</th>
+								<td><strong>2,000원</strong></td>
 							</tr>
 							<tr>
-								<th scope="row">연락처</th>
-								<td>
-									<select style="width:100px;">
-										<option>02</option>
-									</select> -
-									<input type="text" class="inputTxt" style="width:87px;" /> -
-									<input type="text" class="inputTxt" style="width:87px;" />
-								</td>
-							</tr>
-							<tr>
-								<th scope="row">휴대폰번호</th>
-								<td>
-									<select style="width:100px;">
-										<option>010</option>
-									</select> -
-									<input type="text" class="inputTxt" style="width:87px;" /> -
-									<input type="text" class="inputTxt" style="width:87px;" />
-								</td>
-							</tr>
-							<tr>
-								<th scope="row">주소</th>
-								<td class="adrs">
-									<span>
-										<input type="text" class="inputTxt" style="width:235px;" /> <button type="button" class="btnM2 btnType1">검색</button>
-									</span>
-									<span><input type="text" class="inputTxt" style="width:311px;" /></span>
-								</td>
+								<th scope="row">환불예상금액</th>
+								<td colspan="5"><strong>11,500원</strong></td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-				<div class="btnWrap">
-					<button type="button" class="btnM btnType1">삭제</button>
-					<button type="button" class="btnM btnType12">저장</button>
+			</section>
+
+			<section class="subSection">
+				<h2 class="subTitle3">실 환불 금액</h2>
+				<div class="tableList tableListType3">
+					<table>
+						<caption>실 환불 금액</caption>
+						<colgroup>
+							<col style="width:130px" />
+							<col style="width:400px" />
+							<col style="width:130px" />
+							<col />
+						</colgroup>
+						<tbody>
+							<tr>
+								<th scope="row">환불방법</th>
+								<td><strong>신용카드(신한카드)</strong></td>
+								<th scope="row">환불금액</th>
+								<td><strong>9,000원</strong></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<p><button type="button" class="layerClose">레이어닫기</button></p>
+			</section>
+
+			<div class="btnWrap">
+				<a href="#" class="btnB2 btnType11">이전페이지</a>
+				<a href="#" class="btnB2 btnType9">주문취소</a>
 			</div>
-			<!-- //레이어 -->
 
 		</div>
 	</section>
