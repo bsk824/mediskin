@@ -16,12 +16,12 @@
 
 .monthRank {padding:30px 0;}
 .monthRank .rankHead {width:100%;overflow:hidden;}
-.monthRank h1 {float:left;margin:0 50px 0 0;color:#2a2a2a;font-size:24px;font-weight:300;}
+.monthRank h1 {float:left;margin:0 50px 0 0;color:#2a2a2a;font-size:24px;}
 .monthRank .sortTab {overflow:hidden;float:left;margin:15px 0 0;}
 .monthRank .sortTab ul {overflow:hidden;margin:0 -1px;}
 .monthRank .sortTab li {float:left;padding:0 20px;line-height:13px;border-right:1px solid #8c8c8c;border-left:1px solid #f0f0f0;}
 .monthRank .sortTab a {display:inline-block;color:#707070;font-size:13px;}
-.monthRank .sortTab .current a {padding:0 15px 0 0;background:url(../images/contents/bg_sort_current.gif) no-repeat 100% 50%;color:#2e2e2e;font-weight:300;}
+.monthRank .sortTab .current a {padding:0 15px 0 0;background:url(../images/contents/bg_sort_current.gif) no-repeat 100% 50%;color:#2e2e2e;}
 .monthRank .prodListType3 {margin:20px -30px 0;padding:0;}
 .monthRank .prodListType3 .thumb {background:#fff;}
 .monthRank .prodListType3 li {margin:0 30px;}
@@ -64,36 +64,38 @@
 
 .prodDetailTop {zoom:1;padding:30px 0 0;border-top:1px solid #ddd;}
 .prodDetailTop:after {content:"";display:block;clear:both;}
-.prodDetailImg {position:relative;float:left;width:585px;height:540px;}
-.prodDetailImg .prodSimg {position:absolute;top:0;left:0;width:79px;height:79px;border:2px solid #e9e9e9;}
-.prodDetailImg .prodSimg img {width:100%;}
+.prodDetailImg {position:relative;float:left;width:490px;height:590px;}
+.prodDetailImg .prodSimg {position:absolute;bottom:0;left:0;right:0;text-align:center;}
+.prodDetailImg .prodSimg img {width:79px;height:79px;border:2px solid #e9e9e9;}
 .prodDetailImg .prodBimg {text-align:center;}
-.prodDetailImg .prodOpt {position:absolute;right:0;bottom:0;left:0;height:47px;border:1px solid #454545;border-top:2px solid #454545;}
-.prodDetailImg .prodOpt .type {float:left;width:157px;line-height:47px;text-align:center;color:#555454;}
-.prodDetailImg .prodOpt .point {float:left;width:265px;line-height:47px;border-left:1px solid #454545;color:#959494;text-align:center;}
-.prodDetailImg .prodOpt .point b {color:#4c4c4c;}
-.prodDetailImg .prodOpt .point span {width:18px;display:inline-block;overflow:hidden;height:15px;background:url(../images/icon_point.gif) no-repeat 0 100%;text-indent:-9999px;}
-.prodDetailImg .prodOpt .point .point2 {width:36px;}
-.prodDetailImg .prodOpt .point .point3 {width:54px;}
-.prodDetailImg .prodOpt .point .point4 {width:72px;}
-.prodDetailImg .prodOpt .point .point5 {width:90px;}
-.prodDetailImg .prodOpt .share {float:right;width:158px;height:39px;padding:8px 0 0;border-left:1px solid #454545;text-align:center;}
 
-.prodDetailInfo {float:right;width:440px;}
+.prodDetailInfo {position:relative;float:right;width:525px;}
 .prodDetailInfo .name {color:#000;font-size:30px;}
 .prodDetailInfo .name span {display:block;font-size:24px;font-weight:normal;}
 .prodDetailInfo .txt {margin:10px 0;padding:14px;background:#f5f5f5;color:#5a868b;}
-.prodDetailInfo th {height:35px;padding:0 0 0 10px;text-align:left;color:#616161;font-weight:100;font-size:15px;}
-.prodDetailInfo th:before {content:"";display:inline-block;width:2px;height:2px;margin:0 10px 0 0;background:#7a7a7a;vertical-align:middle;}
-.prodDetailInfo td {color:#282828;font-weight:300;font-size:15px;}
+.prodDetailInfo th {height:35px;padding:0 0 0 10px;text-align:left;color:#616161;font-weight:normal;font-size:15px;}
+.prodDetailInfo th:before {content:"";display:inline-block;width:4px;height:4px;margin:0 10px 0 0;background:#7a7a7a;vertical-align:4px;}
+.prodDetailInfo td {color:#282828;font-size:15px;}
 .prodDetailInfo td .price {color:#ff4200;font-size:24px;font-weight:bold;}
 .prodDetailInfo td .option {display:inline-block;position:relative;margin:0 7px 0 0;padding:0 24px;border:1px solid #c2c7cc;vertical-align:middle;}
 .prodDetailInfo td .option button {position:absolute;top:0;left:0;overflow:hidden;width:24px;height:24px;background:url(../images/btn_prod_minus.gif) no-repeat;text-indent:-9999px;}
 .prodDetailInfo td .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
 .prodDetailInfo td .option .inputTxt {display:inline-block;width:24px;height:24px;border:0;padding:0;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;text-align:center;}
-.prodDetailInfo .btnWrap {margin:13px 0 0;}
+.prodDetailInfo .btnWrap {overflow:hidden;margin:30px -4px 0;}
+.prodDetailInfo .btnWrap:after {content:"";display:block;clear:both;}
 .prodDetailInfo .btnWrap span {float:left;width:50%;}
 .prodDetailInfo .btnWrap span a {display:block;margin:4px;}
+
+.prodDetailInfo .prodOpt {margin:4px 0 0;height:47px;border:1px solid #454545;border-top:2px solid #454545;}
+.prodDetailInfo .prodOpt .type {float:left;width:130px;line-height:47px;text-align:center;color:#555454;}
+.prodDetailInfo .prodOpt .point {float:left;width:232px;line-height:47px;border-left:1px solid #454545;color:#959494;text-align:center;}
+.prodDetailInfo .prodOpt .point b {color:#4c4c4c;}
+.prodDetailInfo .prodOpt .point span {width:18px;display:inline-block;overflow:hidden;height:15px;background:url(../images/icon_point.gif) no-repeat 0 100%;text-indent:-9999px;}
+.prodDetailInfo .prodOpt .point .point2 {width:36px;}
+.prodDetailInfo .prodOpt .point .point3 {width:54px;}
+.prodDetailInfo .prodOpt .point .point4 {width:72px;}
+.prodDetailInfo .prodOpt .point .point5 {width:90px;}
+.prodDetailInfo .prodOpt .share {float:right;width:158px;height:39px;padding:8px 0 0;border-left:1px solid #454545;text-align:center;}
 
 .prodListWrap {zoom:1;margin:65px 0 0;}
 .prodListWrap:after {content:"";display:block;clear:both;}
@@ -148,7 +150,7 @@
 .mypageMainTop .mySet .btn {float:right;width:93px;height:25px;margin:20px 23px 0 0;padding:68px 0 0;background:#fff url(../images/contents/bg_my_set.gif) no-repeat 50% 17px;border:1px solid #cbcbcb;color:#3e5f66;font-size:11px;font-weight:normal;text-align:center;}
 
 .myPoint {margin:22px 0 15px;padding:14px 0;background:#266477;border:1px solid #434343;color:#fff;}
-.myPoint th {height:24px;border-right:1px solid #f9f9f9;font-weight:100;}
+.myPoint th {height:24px;border-right:1px solid #f9f9f9;font-weight:normal;}
 .myPoint td {height:24px;padding:0 0 0 35px;font-size:13px;}
 .myPoint .txt1 {font-size:14px;}
 .myPoint .txt2 {color:#fffc00;font-size:22px;line-height:1;}
@@ -167,7 +169,7 @@
 .mypageNav li a {display:block;height:170px;padding:60px 40px 0 0;text-align:right;}
 .mypageNav li .tit {display:block;color:#2c7c8b;font-size:24px;font-weight:bold;letter-spacing:-1px;}
 .mypageNav li .sub {display:block;color:#898989;}
-.mypageNav li .txt {display:block;margin:20px 0 0;color:#a1a1a1;font-size:11px;font-weight:100;}
+.mypageNav li .txt {display:block;margin:20px 0 0;color:#a1a1a1;font-size:11px;font-weight:normal;}
 .mypageNav li a:hover .tit {color:#ff1e00;}
 .mypageNav li a:hover .sub {color:#202020;}
 
@@ -202,7 +204,7 @@
 .myCoupon p {float:left;font-size:11px;text-align:left;}
 .myCoupon .inputTxt {height:25px;font-size:12px;}
 
-.mypageProdList h2 {margin:60px 0 12px;color:#303030;font-size:18px;font-weight:500;}
+.mypageProdList h2 {margin:60px 0 12px;color:#303030;font-size:18px;}
 
 .csTab {margin:0 0 60px;border:1px solid #dadada;}
 .csTab ul {zoom:1;}
@@ -230,7 +232,7 @@
 .buyerInfo .bar {display:inline-block;height:12px;margin:0 10px;border-left:1px solid #505050;text-indent:-9999px;line-height:12px;font-size:0;vertical-align:5px;}
 
 .totalTable {border:6px solid #b7b7b7;}
-.totalTable th {height:44px;padding:0 0 0 23px;border-left:1px solid #e5e5e7;font-weight:100;text-align:left;}
+.totalTable th {height:44px;padding:0 0 0 23px;border-left:1px solid #e5e5e7;font-weight:normal;text-align:left;}
 .totalTable td {height:78px;border-top:1px solid #e5e5e7;border-left:1px solid #e5e5e7;}
 .totalTable th, {border-left:0;}
 .totalTable td:first-child {border-left:0;}
@@ -240,7 +242,7 @@
 
 .orderComTxt {color:#463c3c;border-top:1px solid #d5d5d5;font-size:36px;text-align:center;}
 .orderComTxt span {display:inline-block;padding:70px 0 70px 90px;background:url(../images/contents/icon_order_com.gif) no-repeat 0 50%;}
-.orderComList {margin:10px 0 0 30px;font-size:12px;font-weight:100;}
+.orderComList {margin:10px 0 0 30px;font-size:12px;font-weight:normal;}
  
 .noMemOrderTxt {padding:12px 15px;border-top:1px solid #d5d5d5;}
 .noMemOrderComTxt {position:relative;margin:0 0 -1px;padding:12px 15px;background:#fff;border-top:1px solid #d5d5d5;border-bottom:1px dashed #787a7a;}
@@ -253,9 +255,9 @@
 .agreeSection {padding:25px;background:#f6f6f6;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
 .agreeSection > div {margin:15px 0 0;padding:20px 0 0;border-top:1px solid #e1e1e1;}
 .agreeSection > div:first-child {margin:0;padding:0;border:0;}
-.agreeSection > div h2 {font-size:14px;font-weight:500;}
+.agreeSection > div h2 {font-size:14px;}
 .agreeSection .agreeBox {overflow:auto;height:120px;margin:5px 0;padding:10px;background:#fff;border:1px solid #b9b9b9;font-size:11px;}
-.agreeSection label {font-size:11px;font-weight:100;}
+.agreeSection label {font-size:11px;font-weight:normal;}
 .agreeSection label .inputChk {vertical-align:middle;}
 
 .loginWrap {width:990px;margin:50px auto 0;}
@@ -266,13 +268,13 @@
 .loginWrap .inputTxt {width:248px;height:48px;padding:0 25px;background:#fefefe;border:1px solid #dbdbdb;font-size:14px;}
 .loginWrap fieldset p {margin:10px 0 0;}
 .loginWrap .btnB {width:298px;padding:0;}
-.loginWrap .chkB {color:#747373;font-size:12px;font-weight:200;}
+.loginWrap .chkB {color:#747373;font-size:12px;}
 
 .loginLink {margin:35px 0 0;padding:12px 0 0;border-top:1px solid #dbdbdb;text-align:center;}
-.loginLink a {color:#333;font-size:13px;font-weight:200;}
+.loginLink a {color:#333;font-size:13px;}
 .loginLink .bar {display:inline-block;margin:0 20px;line-height:11px;border-left:1px solid #d6d6d6;text-indent:-9999px;}
 .loginWrap .btn a {margin:10px 0 0;}
-.loginWrap .tip {margin:12px 0 0;color:#7e7c7c;font-size:12px;font-weight:200;text-align:center;}
+.loginWrap .tip {margin:12px 0 0;color:#7e7c7c;font-size:12px;text-align:center;}
 
 .nonMem {margin:25px 0 0;}
 .nonMem .subTitle {margin-top:30px;}
@@ -285,7 +287,7 @@
 .joinField .inputTxt {height:38px;padding:0 20px;background:#fefefe;border:1px solid #dbdbdb;font-size:12px;}
 
 .joinField > p .btnType1 {float:right;}
-.joinField .tip {margin-left:22px;color:#8a8a8a;font-size:11px;font-weight:100;}
+.joinField .tip {margin-left:22px;color:#8a8a8a;font-size:11px;}
 
 .agreeWrap {margin:25px 0 0;padding:20px 25px 20px 40px;background:#f6f6f6;}
 .agreeWrap > p {position:relative;margin:10px 0 0;padding:0 0 0 15px;background:#ececec;color:#4c4b4b;font-size:13px;line-height:34px;}

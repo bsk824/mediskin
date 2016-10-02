@@ -9,8 +9,8 @@
 #header .headAlert span {display:none;position:absolute;top:-3px;left:8px;width:22px;height:22px;line-height:20px;background:#f44305;border-radius:50%;color:#fff;font-size:13px;text-align:center;text-indent:0;}
 #header .headAlert a.on span {display:block;}
 #header .headLink {float:right;}
-#header .headLink a {float:left;height:25px;line-height:22px;padding:0 17px;border-right:1px solid #ddd;color:#959595;font-size:11px;font-weight:100;}
-#header .headLink .member {color:#fe5e10;font-weight:400;}
+#header .headLink a {float:left;height:25px;line-height:22px;padding:0 17px;border-right:1px solid #ddd;color:#959595;font-size:11px;}
+#header .headLink .member {color:#fe5e10;font-weight:bold;}
 #header .headWrap {position:relative;width:1050px;height:64px;margin:0 auto;padding:22px 0 0;}
 #header .headWrap h1 {position:absolute;top:25px;left:0;}
 #header .headSearch {width:460px;margin:0 auto;}
@@ -36,7 +36,7 @@
 #gnb .dep2 > div > .list > li {margin:10px 0 0;}
 #gnb .dep2 > div > .list > li > a {color:#767676;font-size:15px;}
 #gnb .dep2 > div > .list > li > a:hover,
-#gnb .dep2 > div > .list > li.on > a {color:#1c2748;font-weight:500;text-decoration:underline;}
+#gnb .dep2 > div > .list > li.on > a {color:#1c2748;font-weight:bold;text-decoration:underline;}
 #gnb .dep2 .banner {position:absolute;width:550px;top:30px;right:0;text-align:right;}
 #gnb .dep2 .banner li {display:inline-block;margin:2px;}
 
@@ -46,9 +46,9 @@
 #gnb .dep3 .list {width:400px;margin:-5px 0 0;}
 #gnb .dep3 .list li {float:left;width:124px;margin:10px 0 0;}
 #gnb .dep3 .list li a {font-size:12px;}
-#gnb .dep3 .list li a:hover {color:#e83c00;font-weight:500;}
+#gnb .dep3 .list li a:hover {color:#e83c00;font-weight:bold;}
 #gnb .dep3 .list .more a {display:inline-block;padding:2px 20px 3px 10px;background:#fff url(../images/bg_gnb_more.gif) no-repeat 95% 50%;border:1px solid #82a52d;color:#5d7b0b;font-size:11px;}
-#gnb .dep3 .list .more a:hover {color:#767676;font-weight:100;}
+#gnb .dep3 .list .more a:hover {color:#767676;}
 #gnb .dep3 .banner {top:0;width:400px;}
 
 #container {padding:40px 0 135px;}
@@ -60,7 +60,7 @@
 #container .orderProgress li {float:left;margin:0 15px 0 0;padding:0 0 0 30px;background:url(../images/bg_order_arr.gif) no-repeat 0 50%;color:#909090;font-size:18px;}
 #container .orderProgress li:first-child {padding:0;background:none;}
 #container .orderProgress li.current {color:#ff7200;font-weight:bold;}
-#container .location {position:absolute;top:15px;right:0;font-size:12px;font-weight:100;}
+#container .location {position:absolute;top:15px;right:0;font-size:12px;font-weight:normal;}
 
 #footer {border-top:1px solid #c1c3c4;}
 #footer .footWrap {width:1050px;height:45px;margin:0 auto;}
@@ -79,7 +79,7 @@
 #footer .footInfoMenu a {color:#919191;font-size:14px;}
 #footer .footInfoSection {border-top:1px solid #000;}
 #footer .footInfoSection > div {position:relative;width:1050px;height:160px;margin:0 auto;padding:20px 0 0;}
-#footer .footInfoSection h3 {color:#a3a2a2;font-size:24px;font-weight:900;}
+#footer .footInfoSection h3 {color:#a3a2a2;font-size:24px;}
 #footer .footInfo span,
 #footer .footInfo small {display:inline-block;margin:0 10px 0 0;color:#929292;font-size:12px;}
 #footer .footTimeTell {position:absolute;top:25px;right:0;text-align:right;font-size:12px;color:#9d9d9d;}
@@ -95,7 +95,7 @@
 .prodList .label1 {background:#df5afc;}
 .prodList .label2 {background:#ff2626;}
 .prodList .label3 {background:#08c0b9;}
-.prodList .labelRank {position:absolute;top:-1px;left:10px;width:35px;height:34px;padding:3px 0 0;background:url(../images/bg_rank.png) no-repeat;text-align:center;color:#f5f7fa;font-size:16px;font-weight:100;z-index:2;}
+.prodList .labelRank {position:absolute;top:-1px;left:10px;width:35px;height:34px;padding:3px 0 0;background:url(../images/bg_rank.png) no-repeat;text-align:center;color:#f5f7fa;font-size:16px;font-weight:normal;z-index:2;}
 .prodList .labelRank1 {background:url(../images/bg_rank_t.png) no-repeat;}
 .prodList .labelRank2 {background:url(../images/bg_rank2.png) no-repeat;}
 .prodList .basket {display:none;position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;background:url(../images/bg_basket.png) no-repeat 50% 50%;text-indent:-9999px;}
@@ -142,11 +142,11 @@
 /* 타이틀 */
 .memTitle {margin:40px 0 0;line-height:1;color:#373535;font-size:36px;text-align:center;}
 
-.subTitle {color:#343434;font-size:18px;font-weight:normal;text-align:center;}
-.subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;font-weight:normal;line-height:1.1;}
-.subTitle2 span {margin:0 0 0 10px;color:#737373;font-size:14px;font-weight:100;}
-.subTitle3 {margin:0 0 10px 20px;color:#2f2f2f;font-size:18px;font-weight:500;}
-.subTitle4 {margin:0 0 15px;color:#1d1c1c;font-size:30px;font-weight:300;line-height:1.1;}
+.subTitle {color:#343434;font-size:18px;text-align:center;}
+.subTitle2 {margin:0 0 15px;color:#1d1c1c;font-size:22px;line-height:1.1;}
+.subTitle2 span {margin:0 0 0 10px;color:#737373;font-size:14px;font-weight:normal;}
+.subTitle3 {margin:0 0 10px 20px;color:#2f2f2f;font-size:18px;}
+.subTitle4 {margin:0 0 15px;color:#1d1c1c;font-size:30px;line-height:1.1;}
 .titOpt {float:right;margin-top:-30px;}
 .titBtn {float:right;margin-top:-45px;}
 .titBtn .datePick {display:inline-block;margin-left:15px;}
@@ -164,7 +164,7 @@
 .tabList li {float:left;}
 .tabList li a {display:block;height:43px;line-height:43px;margin:0 -1px;background:#fbfbfb;border:1px solid #ddd;color:#323231;font-size:15px;text-align:center;}
 .tabList li a:after {content:"";display:none;position:absolute;top:50%;right:15px;width:12px;height:6px;margin:-3px 0 0;background:url(../images/icon_tab_on.gif) no-repeat;}
-.tabList .current a {position:relative;height:41px;line-height:40px;background:#fff;border-top:3px solid #8e9840;border-bottom:1px solid #fff;font-weight:500;}
+.tabList .current a {position:relative;height:41px;line-height:40px;background:#fff;border-top:3px solid #8e9840;border-bottom:1px solid #fff;font-weight:bold;}
 .tabList .current a:after {display:block}
 
 .tabListType2 ul {zoom:1;}
@@ -186,7 +186,7 @@
 .tabListType4 ul:after {content:"";display:block;clear:both;}
 .tabListType4 li {float:left;}
 .tabListType4 li a {display:block;height:39px;line-height:39px;margin:0 -1px;background:#fff;border:1px solid #c8c8c8;border-top:0;border-bottom:1px solid #e1e1e1;color:#4a4a4a;font-size:15px;text-align:center;}
-.tabListType4 .current a {background:#bfc934;color:#fff;font-weight:400;}
+.tabListType4 .current a {background:#bfc934;color:#fff;font-weight:bold;}
 
 .tabItem3 li {width:33.33%;}
 .tabItem4 li {width:25%;}
@@ -214,11 +214,11 @@
 .bbsListType3 td {height:auto;padding:20px 0;border-left:1px solid #ddd;}
 .bbsListType3 td:first-child {border-left:0;}
 .bbsList .thType1 thead th {font-size:20px;}
-.bbsList .thType2 thead th {font-size:18px;font-weight:100;}
+.bbsList .thType2 thead th {font-size:18px;font-weight:normal;}
 
 .bbsList .subject {padding:0 0 0 50px;text-align:left;}
 .bbsList .subject a {display:inline-block;max-width:90%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.bbsList .subject a.on {font-weight:500;}
+.bbsList .subject a.on {font-weight:bold;}
 .bbsList .adrs {padding:20px 50px;text-align:left;line-height:1.8;}
 .bbsList .answer {display:none;}
 .bbsList .answer td {height:auto;padding:35px 35px 35px 135px;background:#f5f5f5 url(../images/bg_faq_a.gif) no-repeat 100px 30px;text-align:left;}
@@ -244,8 +244,8 @@ m.bbsList .prod .txt {color:#202020;font-size:15px;}
 .bbsList .prod .txt span {display:inline-block;width:49px;height:17px;margin:0 7px 0 0;border:1px solid #2d2d2d;border-radius:9px;font-size:12px;text-align:center;vertical-align:0;}
 .bbsList .prod .txt .buy {color:#ef0e7d;border:1px solid #fa065c;}
 
-.bbsList .orderDate {color:#302e2e;font-weight:500;}
-.bbsList .orderDate a {color:#878787;font-size:12px;font-weight:300;}
+.bbsList .orderDate {color:#302e2e;font-weight:bold;}
+.bbsList .orderDate a {color:#878787;font-size:12px;font-weight:normal;}
 .bbsList .prodImg:first-child {border-left:1px solid #eee;}
 .bbsList .prodImg {padding:24px 0 24px 25px;text-align:left;}
 .bbsList .prodImg2 {padding:14px 0 14px 50px;text-align:left;}
@@ -259,7 +259,7 @@ m.bbsList .prod .txt {color:#202020;font-size:15px;}
 .bbsList .prodPrice .tit {margin:0 10px 0 0;}
 .bbsList .prodPrice .tit span {display:inline-block;margin:0 0 0 2px;vertical-align:1px;}
 .bbsList .prodPrice .money {color:#ed4e00;font-size:20px;}
-.bbsList .orderStatus .status {display:block;color:#302e2e;font-weight:400;}
+.bbsList .orderStatus .status {display:block;color:#302e2e;font-weight:normal;}
 .bbsList .orderStatus .btnS {display:block;width:94px;margin:4px auto;padding:0;}
 .bbsList .orderStatus .reviewCom {display:block;margin:10px 0 0;font-size:11px;}
 .bbsList tfoot td {height:70px;padding:0 50px 0 0;background:#f5f4f4;border-top:1px solid #e5e4e4;color:#302e2e;text-align:right;}
@@ -321,7 +321,7 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 
 .tableList {border-top:2px solid #3f4142;}
 .tableListType2 {border-bottom:1px solid #3f4142;}
-.tableList th {color:#363636;font-size:15px;font-weight:300;}
+.tableList th {color:#363636;font-size:15px;font-weight:normal;}
 .tableList thead th {height:50px;}
 .tableList tbody th {background:#f5f6f4;}
 .tableListType3 th {padding-left:30px;text-align:left;border-bottom:1px solid #c8c8c8;font-size:14px;}
@@ -346,7 +346,7 @@ table .status span.com {background:#d39511;border:1px solid #d39511;color:#fff;}
 .tableList .prodBtn .option .plus {left:auto;right:0;background:url(../images/btn_prod_plus.gif) no-repeat;}
 .tableList .prodBtn .option .inputTxt {display:inline-block;width:24px;line-height:24px;padding:0;border:0;border-left:1px solid #c2c7cc;border-right:1px solid #c2c7cc;text-align:center;}
 .tableList .prodBtn .del {display:inline-block;overflow:hidden;width:26px;height:26px;background:url(../images/btn_prod_del.gif) no-repeat;text-indent:-9999px;}
-.tableList .total {color:#181818;font-size:16px;font-weight:400;}
+.tableList .total {color:#181818;font-size:16px;font-weight:bold;}
 .tableList .totalPrice p {padding:25px 35px;text-align:right;border:6px solid #c8c8c8;color:#232323;}
 .tableList .totalPrice p img {margin:0 25px;}
 .tableList .totalPrice p b {font-size:18px;font-weight:bold;}
@@ -400,20 +400,20 @@ button.btnB2 {height:60px;line-height:1.2;}
 button.btnB3 {height:44px;line-height:1.2;}
 .btnB3 img {vertical-align:-4px;}
 
-.btnType1 {background:#eaeaea;border:1px solid #dbdbdb;color:#4c4c4c;font-weight:500;}
-.btnType2 {background:#8eb035;border:1px solid #8eb035;color:#fff;font-weight:300;}
+.btnType1 {background:#eaeaea;border:1px solid #dbdbdb;color:#4c4c4c;font-weight:bold;}
+.btnType2 {background:#8eb035;border:1px solid #8eb035;color:#fff;}
 .btnType3 {background:#b7b7b7;border:1px solid #989898;border-radius:2px;color:#fff;}
 .btnType4 {background:#545454;border:1px solid #545454;color:#fff;font-size:14px;}
 .btnType5 {background:#9d9d9d;border:1px solid #9d9d9d;color:#fff;font-size:14px;}
 .btnType6 {background:#fff;border:1px solid #ededed;color:#8d8d8d;}
 .btnType7 {background:#fff;border:1px solid #969daf;color:#8e8e8e;}
 .btnType8 {background:#fff;border:1px solid #b7bc53;color:#606157;}
-.btnType9 {background:#96a100;border:1px solid #96a100;color:#fff;font-weight:500;}
+.btnType9 {background:#96a100;border:1px solid #96a100;color:#fff;font-weight:bold;}
 .btnType10 {background:#fff;border:1px solid #959da6;color:#959595;}
 .btnType11 {background:#fff;border:1px solid #c0c0c0;color:#8d8d8d;}
 .btnType12 {background:#fff;border:1px solid #686f75;color:#323232;}
-.btnType13 {background:#fc8c13;border:1px solid #fc8c13;color:#fff;font-weight:500;}
-.btnType14 {background:#00c73c;border:1px solid #00c73c;color:#fff;font-weight:500;}
+.btnType13 {background:#fc8c13;border:1px solid #fc8c13;color:#fff;font-weight:bold;}
+.btnType14 {background:#00c73c;border:1px solid #00c73c;color:#fff;font-weight:bold;}
 .btnType15 {background:#0c80a6;border:1px solid #0c80a6;color:#fff;}
 
 .btnFacebook {background:#3a5a9a url(../images/btn_facebook.gif) no-repeat 16px 50%;border:1px solid #3a5a9a;color:#fff;font-size:16px;}
@@ -429,7 +429,7 @@ button.btnB3 {height:44px;line-height:1.2;}
 
 /* 레이어팝업 */
 .layerPop {position:fixed;top:50%;left:50%;background:#fff;border:1px solid #4a4a4a;}
-.layerTit {height:40px;padding:11px 0 0 28px;background:#343434;border-bottom:1px solid #dbdbdb;color:#fff;font-size:20px;font-weight:100;}
+.layerTit {height:40px;padding:11px 0 0 28px;background:#343434;border-bottom:1px solid #dbdbdb;color:#fff;font-size:20px;font-weight:normal;}
 .layerCon {padding:15px 30px 25px;}
 .layerCon .bbsWrite {border:0;}
 .layerCon .bbsWrite th,
