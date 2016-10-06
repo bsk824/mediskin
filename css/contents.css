@@ -38,7 +38,7 @@
 .prodListTop .btnSmart button.on {border-bottom:0;}
 .prodListTop .smartSet {padding:17px 22px;background:#f8f8f8;border:1px solid #d6d6d6;}
 .prodListTop .smartSet .tit {padding:5px 0 0;color:#7b7e4d;font-size:14px;}
-.prodListTop .smartSet label {display:inline-block;margin:12px 0 0;color:#53534c;font-size:12px;}
+.prodListTop .smartSet label {display:inline-block;color:#53534c;font-size:12px;}
 .prodListTop .smartSet label input {margin:0 3px 0 0;vertical-align:-2px;}
 .prodListTop .smartSetTop {width:100%;overflow:hidden;padding:0 0 20px;border-bottom:1px solid #fff;}
 .prodListTop .smartSet .age {float:left;width:189px;height:120px;padding:0 0 0 10px;border-right:1px solid #dcdcdc;}
@@ -50,8 +50,8 @@
 .prodListTop .smartSet .brand {position:relative;padding:13px 65px 0 78px;border-top:1px solid #dcdcdc;}
 .prodListTop .smartSet .brand .tit {position:absolute;top:15px;left:10px;}
 .prodListTop .smartSet .brand label {width:120px;}
-.prodListTop .smartSet .brand .more {position:absolute;top:22px;right:0;width:86px;height:22px;background:#fff;border:1px solid #a7a7a7;font-size:11px;font-weight:normal;}
-.prodListTop .smartSet .brand .more:after {content:"";display:inline-block;width:10px;height:10px;margin:0 0 0 4px;background:url(../images/contents/btn_brand_more.gif) no-repeat;vertical-align:0;}
+.prodListTop .smartSet .brand .more {position:absolute;top:22px;right:0;width:90px;height:22px;line-height:22px;background:#fff;border:1px solid #a7a7a7;font-size:11px;font-weight:normal;}
+.prodListTop .smartSet .brand .more:after {content:"";display:inline-block;width:10px;height:10px;margin:0 0 0 4px;background:url(../images/contents/btn_brand_more.gif) no-repeat;vertical-align:middle;}
 .prodListTop .smartSet .brand .brandHide:after {width:10px;height:10px;background:url(../images/contents/btn_brand_hide.gif) no-repeat;}
 
 .searchResult .txt {line-height:40px;background:#fcfcfc;border:1px solid #8dc8ca;color:#3d3d3d;text-align:center;font-size:16px;font-weight:normal;}
